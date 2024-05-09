@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+color: white;
+}
+header{
+    background-color: rgb(24, 68, 24);
+    margin-bottom:  20px;
+    border-style: solid;
+}
+
+body{
+    background-color: #3fa13f;
+}
