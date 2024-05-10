@@ -5,12 +5,22 @@ body{
     background-color: #6cdf72;
 }
 nav{
-    background-color: green;
-    padding: 40px;
+    background-color: #0E522D;
     margin-bottom: 20px;
+    height: 150px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
 }
 form{
-    display: ;
     align-items: center;
 }
 .AnoCurso{
@@ -33,5 +43,9 @@ form{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
+}
+button{
+    background-color: #0E522D;
+    border: 0;
 }
