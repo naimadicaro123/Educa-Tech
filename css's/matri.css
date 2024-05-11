@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #6cdf72;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.infor-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+input{
+    background-color: #0E522D;
+    border-bottom-color: white;
+    color: white;
+}
+.infor-container label {
+text-align: center;
+margin-bottom: 10px;
+}
+.numcomp-container label{
+    margin-right: 20px;
+    text-align: right;
+}
+
+.lobutone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newpage{
+    background-color:#0E522D ;
+border: 0;
+font-size: 20px;
+}
+.voltar{
+    background-color:#6cdf72 ;
+    border: 0;
+    height: 40px;
+font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

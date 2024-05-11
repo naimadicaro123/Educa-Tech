@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.lobutone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newpage{
+    background-color:#0E522D ;
+border: 0;
+font-size: 20px;
+}
+.voltar{
+    background-color:#6cdf72 ;
+    border: 0;
+    height: 40px;
+font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
