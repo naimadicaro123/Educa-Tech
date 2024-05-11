@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #6cdf72;
+}
+
+.forms{
+    text-align: center;
+}
+h3{
+    display: block;
+}
+.AnoCurso-container {
+    text-align: center; /* Centraliza os elementos horizontalmente */
+  }
+  
+  h3, select {
+    display: block; /* Define os elementos como elementos em bloco */
+   text-align: center;
+    margin: 0 auto; /* Margem superior e inferior de 10px e centraliza horizontalmente */
+  }
+.selecione-container{
+    display: flex;
+  flex-direction: column; /* Alinha os elementos verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+    
+}
+button{
+  background-color: #0E522D;
+  color: white;
+  font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+b
