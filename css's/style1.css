@@ -4,7 +4,17 @@
 body{
     background-color: #6cdf72;
 }
-
+.nave-container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0E522D;
+}
+.image-container{
+  width: 120px;
+  height: 100px;
+}
 .forms{
     text-align: center;
 }
@@ -12,18 +22,18 @@ h3{
     display: block;
 }
 .AnoCurso-container {
-    text-align: center; /* Centraliza os elementos horizontalmente */
+    text-align: center;
   }
   
   h3, select {
-    display: block; /* Define os elementos como elementos em bloco */
+    display: block;
    text-align: center;
-    margin: 0 auto; /* Margem superior e inferior de 10px e centraliza horizontalmente */
+    margin: 0 auto;
   }
 .selecione-container{
     display: flex;
-  flex-direction: column; /* Alinha os elementos verticalmente */
-  align-items: center; /* Centraliza os elementos horizontalmente */
+  flex-direction: column;
+  align-items: center;
     
 }
 button{
