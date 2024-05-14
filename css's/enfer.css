@@ -5,6 +5,18 @@ body{
     background-color: #6cdf72;
     color: white;
 }
+.nave-container{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      background-color: #0E522D;
+      margin-bottom: 20px;
+  }
+  .image-container{
+    width: 120px;
+    height: 100px;
+  }
 h1{
     background-color:  #0E522D;
     margin-right:30% ;
