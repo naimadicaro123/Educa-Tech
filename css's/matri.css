@@ -28,7 +28,17 @@ margin-bottom: 10px;
     margin-right: 20px;
     text-align: right;
 }
-
+.nave-container{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      background-color: #0E522D;
+  }
+  .image-container{
+    width: 120px;
+    height: 100px;
+  }
 .lobutone{
     display: flex;
     flex-direction: column;

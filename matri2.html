@@ -8,28 +8,27 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="container">
-            <img src="#" alt="" class="image">
+        <nav class="nave-container">
+            <div class="imagem-container">
+            <img src="imagens/image.png" alt="" class="image-container">
         </div>
         </nav>
     </header>
-    <form action="#" method="post">
+    <form action="#" methosd="post">
         <section>
         <h1>DADOS ESCOLARES DO(A) ALUNO(A)</h1>
         <div class="dados-container">
-            <h3>Tipo de escola:</h3>
-            <label for="">Nome da escola que cursou o 9ª ano: <br><input type="text"></label>    
-            <div class="dados-container">
-                <label for=""><input type="radio">Estado: </label>
-                <label for=""><input type="radio">Municipal: </label><br>
+            <h3>Tipo de Escola:</h3>
+            <label for="" class="schol-container">Nome da escola que cursou o 9ª ano: <br><input type="text" id="NomEscola"></label>    
+            <div class="dado-radio-container">
+                <label for=""><input type="radio" name="tipo-escola">Estado: </label>
+                <label for=""><input type="radio" name="tipo-escola">Municipal: </label><br>
+                <label for=""><input type="radio" name="tipo-escola">Particular: </label>
             </div> 
-                <label for=""><input type="radio">Particular: </label>
-             
             <div class="repete">
-                <h3>Repetentes:</h3>
-                <label for=""><input type="radio">Sim: </label>
-                <label for=""><input type="radio">Não: </label>
+               <h3>Repetentes:</h3>
+                <label for=""><input type="radio" name="repetentes">Sim: </label>
+                <label for=""><input type="radio" name="repetentes">Não: </label>
             </div>
         </div>
         <div class="lobutone">
