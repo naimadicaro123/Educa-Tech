@@ -31,11 +31,17 @@ margin-bottom: 10px;
     padding: 10px;
 }
 .nave-container{
-    display: flex;
+      display: flex;
       justify-content: center;
       align-items: center;
       height: 100px;
       background-color: #0E522D;
+  }
+  .nave-container label{
+    margin-right: 20px;
+  }
+  .numerus-container{
+    margin-right: 20px;
   }
   .image-container{
     width: 120px;
