@@ -5,12 +5,18 @@ body{
     background-color: #6cdf72;
     color: white;
 }
-h1{
+.h-container{
     background-color:  #0E522D;
-    margin-right:30% ;
-    margin-left:30%;
     text-align: center;
-    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 auto 20px auto;
+    align-items: center;
+}
+.centro-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 p{
     font-size: 30px;

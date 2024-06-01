@@ -7,22 +7,28 @@ body{
 }
 .nave-container{
     display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100px;
-      background-color: #0E522D;
-      margin-bottom: 20px;
-  }
-  .image-container{
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0E522D;
+    margin-bottom: 20px;
+}
+.h-container{
+    background-color:  #0E522D;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 auto 20px auto;
+    align-items: center;
+}
+.centro-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.image-container{
     width: 120px;
     height: 100px;
-  }
-h1{
-    background-color:  #0E522D;
-    margin-right:30% ;
-    margin-left:30%;
-    text-align: center;
-    margin-bottom: 20px;
 }
 p{
     font-size: 30px;
@@ -30,26 +36,25 @@ p{
 .otexto-container{
     text-align: center;
     vertical-align: middle;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
 }
 .losbutones{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .irpara_a{
-    background-color:#0E522D ;
-border: 0;
-font-size: 20px;
+    background-color: #0E522D;
+    border: 0;
+    font-size: 20px;
 }
 .irpara_b{
-    background-color:#6cdf72 ;
+    background-color: #6cdf72;
     border: 0;
     height: 40px;
-font-size: 20px;
+    font-size: 20px;
 }
 a{
     text-decoration: none;
     color: white;
-}s
+}

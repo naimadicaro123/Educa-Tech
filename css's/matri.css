@@ -27,6 +27,7 @@ margin-bottom: 10px;
 .numcomp-container label{
     margin-right: 20px;
     text-align: right;
+    display: flex;
 }
 .nave-container{
     display: flex;
@@ -58,4 +59,7 @@ font-size: 20px;
 a{
     text-decoration: none;
     color: white;
+}
+label{
+    cursor: pointer;
 }
