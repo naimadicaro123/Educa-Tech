@@ -27,7 +27,11 @@ h3{
 .AnoCurso-container {
     text-align: center;
   }
-  
+  .sela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   h3, select {
     display: block;
    text-align: center;
