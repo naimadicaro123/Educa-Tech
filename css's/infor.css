@@ -20,6 +20,7 @@ body{
     padding: 10px 20px;
     margin: 0 auto 20px auto;
     align-items: center;
+    border-radius: 5px;
 }
 .centro-container{
     text-align: center;
@@ -47,6 +48,13 @@ p{
     background-color: #0E522D;
     border: 0;
     font-size: 20px;
+    border-radius: 5px  ;
+}
+@media only screen and (max-width: 600px) {
+    p {
+        width: calc(100% - 40px); /* 100% da largura menos 20px de margem de cada lado */
+        margin: 20px;
+    }
 }
 .irpara_b{
     background-color: #6cdf72;
