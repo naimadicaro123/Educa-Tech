@@ -24,6 +24,7 @@ body{
     padding: 10px 20px;
     margin: 0 auto 20px auto;
     align-items: center;
+    border-radius: 5px;
 }
 .centro-container{
     text-align: center;
@@ -47,12 +48,20 @@ p{
     background-color:#0E522D ;
 border: 0;
 font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+.irpara_c:hover{
+    background-color: black;
+    transition: 1s;
 }
 .irpara_d{
     background-color:#6cdf72 ;
     border: 0;
     height: 40px;
 font-size: 20px;
+padding: 10px;
+border-radius: 5px;
 }
 a{
     text-decoration: none;

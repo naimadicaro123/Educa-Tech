@@ -1,5 +1,6 @@
 :root{
  --main-clara:#6cdf72 ;
+ --main-branco: #ffff;
 }
 *{
     margin: 0;
@@ -12,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: var(--main-clara);
+    background-color: #0E522D;
 }
 .image-container{
   width: 120px;
@@ -21,17 +22,14 @@ body{
 .forms{
     text-align: center;
 }
-h3{
+h1{
     display: block;
+    color: var(--main-branco);
 }
 .AnoCurso-container {
     text-align: center;
   }
-  .sela{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  
   h3, select {
     display: block;
    text-align: center;
