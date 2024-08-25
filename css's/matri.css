@@ -19,10 +19,15 @@ input{
     background-color: #0E522D;
     border-bottom-color: white;
     color: white;
+    border: 0px;
+    border-radius:5px ;
+    padding: 10px;
+    font-size: 20px;
 }
 .infor-container label {
 text-align: center;
 margin-bottom: 10px;
+font-size: 25px;
 }
 .numcomp-container{
     margin-right: 20px;
@@ -58,12 +63,16 @@ margin-bottom: 10px;
     background-color:#0E522D ;
 border: 0;
 font-size: 20px;
+padding: 10px;
+border-radius: 5px;
 }
 .voltar{
     background-color:#6cdf72 ;
     border: 0;
     height: 40px;
 font-size: 20px;
+padding: 10px;
+margin-bottom: 20px;
 }
 a{
     text-decoration: none;
