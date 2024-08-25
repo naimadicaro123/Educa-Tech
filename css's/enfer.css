@@ -2,20 +2,20 @@
     margin: 0;
 }
 body{
-    background-color: #6cdf72;
+    background-color: green;
     color: white;
 }
 .nave-container{
     display: flex;
       justify-content: center;
       align-items: center;
-      height: 100px;
-      background-color: #0E522D;
+      height: 150px;
+      background-color:green ;
       margin-bottom: 20px;
   }
   .image-container{
     width: 120px;
-    height: 100px;
+    height: 150px;
   }
   .h-container{
     background-color:  #0E522D;
