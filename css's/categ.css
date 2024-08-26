@@ -20,6 +20,7 @@ body {
     align-items: center;
     height: 100px;
     background-color: #0E522D;
+    margin-bottom: 20px;
 }
 
 .image-container {
@@ -34,6 +35,8 @@ body {
 h1 {
     display: block;
     color: var(--main-branco);
+    margin-bottom: 20px;
+
 }
 
 .AnoCurso-container {
@@ -78,6 +81,8 @@ button {
     margin: 0 auto;
     background-color: grey;
     cursor: pointer;
+    display: inline-block;
+    margin-bottom:20px ;
 }
 a {
     text-decoration: none;
@@ -89,5 +94,23 @@ a {
 @media (min-width: 768px) {
     .selecione-container {
         margin: 0 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
+.back-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin: auto;
+}
+@media (min-width: 377px)and(max-width: 768px) {
+    .selecione-container {
+        margin: 0 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 }
