@@ -20,6 +20,7 @@ body {
     align-items: center;
     height: 100px;
     background-color: #0E522D;
+
 }
 
 .image-container {
@@ -32,6 +33,7 @@ body {
 }
 
 h1 {
+    margin-: 20px;
     display: block;
     color: var(--main-branco);
 }
@@ -90,4 +92,8 @@ a {
     .selecione-container {
         margin: 0 20px;
     }
+}
+button:hover{
+    background-color: black;
+    transition: 0.5s ease-in-out;  
 }

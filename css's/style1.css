@@ -49,14 +49,25 @@ button{
     color: white;
     font-size: 20px;
     border-radius: 5px;
-    padding: 20px;
+    padding: 0; /* Remover padding do botão para que o link ocupe todo o espaço */
     border: 0;
     width: 100%;
     max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
     margin: 10px 0; /* Espaçamento vertical entre os botões */
+    overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
 }
 a{
-    text-decoration: none;
-    color: white;
+  display: block; /* Faz o link ocupar todo o botão */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px 0; /* Espaçamento dentro do link */
+  text-decoration: none;
+  color: white;
 }
-b
+button:hover{
+  background-color: black;
+  transition: 0.5s ease-in-out;
+  
+}
+
