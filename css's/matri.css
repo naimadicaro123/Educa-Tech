@@ -96,8 +96,20 @@ a{
 label{
     cursor: pointer;
 }
-a:hover{
+button:hover:{
     background-color: black;
     transition: 0.5s ease-in-out;  
+  }
+  button{
+    background-color: #0E522D;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 0; /* Remover padding do botão para que o link ocupe todo o espaço */
+    border: 0;
+    width: 100%;
+    max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
+    margin: 10px 0; /* Espaçamento vertical entre os botões */
+    overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
   }
   

@@ -70,4 +70,8 @@ button:hover{
   transition: 0.5s ease-in-out;
   
 }
+svg{
+  padding-right: 15px;
+}
+
 
