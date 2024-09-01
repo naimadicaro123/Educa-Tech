@@ -8,8 +8,13 @@ body{
 h1{
     text-align: center;
     margin-bottom: 20px;
+<<<<<<< HEAD
     margin-top: 20px;
 
+=======
+
+    margin-top: 20px;
+>>>>>>> 75d01614ffaf7dc54cb742df43b64405ffb6fa34
 }
 .infor-container{
 display: flex;
@@ -96,6 +101,7 @@ a{
 label{
     cursor: pointer;
 }
+<<<<<<< HEAD
 button:hover:{
     background-color: black;
     transition: 0.5s ease-in-out;  
@@ -113,3 +119,5 @@ button:hover:{
     overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
   }
   
+=======
+>>>>>>> 75d01614ffaf7dc54cb742df43b64405ffb6fa34

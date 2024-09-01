@@ -77,7 +77,7 @@ a {
 }
 
 button svg {
-  height: 100%; /* Faz o SVG ocupar toda a altura do contêiner */
+  height: 50%; /* Faz o SVG ocupar toda a altura do contêiner */
   width: auto;
-  margin-right: 10px; /* Espaço entre o ícone e o texto */
+  margin-right: 10px; Espaço entre o ícone e o texto
 }
