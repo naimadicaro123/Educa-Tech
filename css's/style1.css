@@ -79,5 +79,14 @@ a {
 button svg {
   height: 50%; /* Faz o SVG ocupar toda a altura do contêiner */
   width: auto;
-  margin-right: 10px; Espaço entre o ícone e o texto
+  margin-right: 10px; 
+}
+@media screen and (max-width: 453px) {
+  .sela {
+      margin: 0 20px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      font-size: 20px;
+  }
 }
