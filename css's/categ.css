@@ -127,7 +127,24 @@ a {
         justify-content: center;
         align-items: center;
         display: flex;
-        font-size: 10px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 453px) {
+    button{
+        margin-top: 10px;
+        margin-bottom: -5px;
+    }
+    .ultimo{
+         
+    }
+    .back-container{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .finalizar{
+        margin-top: -45px;
+        margin-bottom: 5px;
     }
 }
 button:hover{

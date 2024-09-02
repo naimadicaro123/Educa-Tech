@@ -41,7 +41,10 @@ p{
 .texto-container{
     text-align: center;
     vertical-align: middle;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .lobutone{
     display: flex;

@@ -26,6 +26,8 @@ p{
     text-align: center;
     vertical-align: middle;
     margin-bottom:20px ;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .nave-container{
     display: flex;
