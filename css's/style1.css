@@ -89,4 +89,12 @@ button svg {
       display: flex;
       font-size: 20px;
   }
+  .sela{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 332px) {
+  .sela{
+    font-size: 15px;
+  }
 }
