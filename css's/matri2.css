@@ -9,7 +9,7 @@ h1{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 5px;
-    color: black;
+    color: white;
 }
 .schol-container{
     text-align: center;
@@ -19,11 +19,20 @@ h1{
    background-color: #0E522D;
    border-bottom: 20px;
    margin-bottom: 10px;
+   color: white;
 }
 .dados-container {
     display: flex;
     flex-direction: column;
     align-items: center; /* Centralizando a div dados-container */
+}
+.escuela{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.labao{
+    font-size: 25px;
+    gap: 20px;
 }
 .dados-radio-container {
     display: flex;
@@ -48,7 +57,7 @@ h1{
     height: 20px;
     border: 1px solid #000;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 20px; /* Aumente o valor para aumentar a separação */
     vertical-align: middle;
 }
 
