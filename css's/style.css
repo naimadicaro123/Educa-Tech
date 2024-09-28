@@ -1,0 +1,799 @@
+:root{
+  --main-clara: #6cdf72;
+  --main-branco: #ffff;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--main-clara);
+}
+
+.nave-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #0E522D;
+}
+
+.image-container{
+  width: 120px;
+  height: 100px;
+}
+
+.forms{
+  text-align: center;
+}
+
+h1{
+  display: block;
+  color: var(--main-branco);
+}
+
+.selecione-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+button{
+  background-color: #0E522D;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 0; /* Remover padding do botão para que o link ocupe todo o espaço */
+  border: 0;
+  width: 100%;
+  max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
+  margin: 10px 0; /* Espaçamento vertical entre os botões */
+  overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
+  height: 50px; /* Altura fixa */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: black;
+  transition: 0.5s ease-in-out;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0; /* Remover padding do link para centralizar o conteúdo */
+  text-decoration: none;
+  color: white;
+}
+
+button svg {
+  height: 50%; /* Faz o SVG ocupar toda a altura do contêiner */
+  width: auto;
+  margin-right: 10px; 
+}
+@media screen and (max-width: 453px) {
+  .selecione-container {
+      margin: 0 20px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      font-size: 20px;
+  }
+  .sela{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 332px) {
+  .sela{
+    font-size: 15px;
+  }
+}
+*{
+  margin: 0;
+}
+body{
+  background-color: #6cdf72;
+  color: white;
+}
+.nave-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #0E522D;
+  margin-bottom: 20px;
+}
+.h-container{
+  background-color:  #0E522D;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 auto 20px auto;
+  align-items: center;
+  border-radius: 5px;
+}
+.centro-container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.image-container{
+  width: 120px;
+  height: 100px;
+}
+p{
+  font-size: 30px;
+}
+.otexto-container{
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.losbutones{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.irpara_a:hover{
+  background-color: black;
+  transition: 1s;
+}
+.irpara_a{
+  background-color: #0E522D;
+  border: 0;
+  font-size: 20px;
+  border-radius: 5px  ;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  p {
+      font-size:3s5px ;
+  }
+  img{
+      width: 100%;
+  }
+}
+.irpara_b{
+  background-color: #6cdf72;
+  border: 0;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+:root{
+  --main-clara:#6cdf72 ;
+  --main-branco: #ffff;
+ }
+*{
+  margin: 0;
+}
+body{
+  background-color: var(--main-clara);
+  color: white;
+}
+.nave-container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: var(--main-clara) ;
+    margin-bottom: 20px;
+}
+.image-container{
+  width: 120px;
+  height: 150px;
+}
+.h-container{
+  background-color:  #0E522D;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 auto 20px auto;
+  align-items: center;
+  border-radius: 5px;
+}
+.centro-container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-size: 30px;
+}
+.texto-container{
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.lobutone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.irpara_c{
+  background-color:#0E522D ;
+border: 0;
+font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+.irpara_c:hover{
+  background-color: black;
+  transition: 1s;
+}
+.irpara_d{
+  background-color:#6cdf72 ;
+  border: 0;
+  height: 40px;
+font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+*{
+  margin: 0;
+}
+body{
+  background-color: #6cdf72;
+  color: white;
+}
+.nave-container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0E522D;
+    margin-bottom: 20px;
+}
+.image-container{
+  width: 120px;
+  height: 100px;
+}
+.h-container{
+  background-color:  #0E522D;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 auto 20px auto;
+  align-items: center;
+  border-radius: 5px;
+}
+.centro-container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-size: 30px;
+  padding: 20px;
+  padding-right: 20px;
+}
+.texto-container{
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom:20px ;
+}
+.lobutone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.irpara_c{
+  background-color:#0E522D ;
+border: 0;
+font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+.irpara_c:hover{
+  background-color: black;
+  transition: 1s;
+}
+.irpara_d{
+  background-color:#6cdf72 ;
+  border: 0;
+  height: 40px;
+font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+*{
+  margin: 0;
+}
+body{
+  background-color: #6cdf72;
+  color: white;
+}
+.h-container{
+  background-color:  #0E522D;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px auto 20px auto;
+  align-items: center;
+  border-radius: 5px;
+}
+.centro-container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  font-size: 30px;
+}
+.texto-container{
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom:20px ;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.nave-container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0E522D;
+}
+.image-container{
+  width: 120px;
+  height: 100px;
+  
+}
+.lobutone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.irpara_g{
+  background-color:#0E522D ;
+border: 0;
+font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+.irpara_g:hover{
+background-color: black;
+transition: 1s;
+}
+.irpara_h{
+  background-color:#6cdf72 ;
+  border: 0;
+  height: 40px;
+font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+:root {
+  --main-clara: #6cdf72;
+  --main-branco: #ffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-clara);
+  font-family: Arial, sans-serif;
+}
+
+.nave-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #0E522D;
+<<<<<<< HEAD
+
+=======
+  margin-bottom: 20px;
+>>>>>>> 75d01614ffaf7dc54cb742df43b64405ffb6fa34
+}
+
+.image-container {
+  width: 120px;
+  height: 100px;
+}
+
+.forms {
+  text-align: center;
+}
+
+h1 {
+  margin-: 20px;
+  display: block;
+  color: var(--main-branco);
+  margin-bottom: 20px;
+
+}
+
+.AnoCurso-container {
+  text-align: center;
+}
+
+h3, select {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.selecione-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.selecione-container {
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0E522D;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 0;
+  width: 100%;
+  max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
+  margin: 10px 0; /* Espaçamento vertical entre os botões */
+}
+.final-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.finalizar{
+  margin: 0 auto;
+  background-color: grey;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom:20px ;
+}
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .selecione-container {
+      margin: 0 20px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  }
+}
+.back-container{
+  display: block;
+  justify-content: center;
+  align-items: center;s
+  margin-top: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+/* @media (min-width: 377px)and(max-width: 768px) {
+  .selecione-container {
+      margin: 0 20px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  }
+} */
+@media screen and (max-width: 453px) {
+  .selecione-container {
+      margin: 0 20px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      font-size: 15px;
+  }
+}
+@media screen and (max-width: 453px) {
+  button{
+      margin-top: 10px;
+      margin-bottom: -5px;
+  }
+  .ultimo{
+       
+  }
+  .back-container{
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  .finalizar{
+      margin-top: -45px;
+      margin-bottom: 5px;
+  }
+}
+button:hover{
+  background-color: black;
+  transition: 0.5s ease-in-out;  
+}
+*{
+  margin: 0;
+}
+body{
+  background-color: #6cdf72;
+  color: white;
+}
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-top: 20px;
+}
+.infor-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+input{
+  background-color: #0E522D;
+  border-bottom-color: white;
+  color: white;
+  border: 0px;
+  border-radius:5px ;
+  padding: 10px;
+  font-size: 20px;
+}
+.infor-container label {
+text-align: center;
+margin-bottom: 10px;
+font-size: 25px;
+}
+.numcomp-container{
+  margin: 0 auto;
+  text-align: center;
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .numcomp-container input{
+      display: block;
+
+  }
+}
+@media (min-width: 377px) {
+  .numcomp-container input{
+      display: block;
+
+  }
+}
+.nave-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0E522D;
+}
+.nave-container label{
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.numerus-container{
+  margin-right: 20px;
+}
+.image-container{
+  width: 120px;
+  height: 100px;
+}
+.lobutone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newpage{
+  background-color:#0E522D ;
+border: 0;
+font-size: 20px;
+padding: 10px;
+border-radius: 5px;
+}
+.voltar{
+  background-color:#6cdf72 ;
+  border: 0;
+  height: 40px;
+font-size: 20px;
+padding: 10px;
+margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+label{
+  cursor: pointer;
+}
+<<<<<<< HEAD
+button:hover:{
+  background-color: black;
+  transition: 0.5s ease-in-out;  
+}
+button{
+  background-color: #0E522D;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 0; /* Remover padding do botão para que o link ocupe todo o espaço */
+  border: 0;
+  width: 100%;
+  max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
+  margin: 10px 0; /* Espaçamento vertical entre os botões */
+  overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
+}
+*{
+  margin: 0;
+}
+body{
+  background-color: #6cdf72;
+  color: white;
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: white;
+}
+.schol-container{
+  text-align: center;
+  justify-content: center;
+}
+#NomEscola{
+ background-color: #0E522D;
+ border-bottom: 20px;
+ margin-bottom: 10px;
+ color: white;
+}
+.dados-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centralizando a div dados-container */
+}
+.escuela{
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.labao{
+  font-size: 25px;
+  gap: 20px;
+}
+.dados-radio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.dados-radio-container label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.dados-radio-container input[type="radio"] {
+  display: none;
+}
+
+.dados-radio-container label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-right: 20px; /* Aumente o valor para aumentar a separação */
+  vertical-align: middle;
+}
+
+.dados-radio-container input[type="radio"]:checked + label::before {
+  background-color: #0E522D;
+}
+.nave-container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0E522D;
+}
+.image-container{
+  width: 120px;
+  height: 100px;
+}
+h3{
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.lobutone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newpage{
+  background-color:#0E522D ;
+border: 0;
+font-size: 20px;
+}
+.voltar{
+  background-color:#6cdf72 ;
+  border: 0;
+  height: 40px;
+font-size: 20px;
+}
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0; /* Remover padding do link para centralizar o conteúdo */
+  text-decoration: none;
+  color: white;
+}
+.repete{
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+button{
+  background-color: #0E522D;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 0; /* Remover padding do botão para que o link ocupe todo o espaço */
+  border: 0;
+  width: 100%;
+  max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
+  margin: 10px 0; /* Espaçamento vertical entre os botões */
+  overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
+  height: 50px; /* Altura fixa */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
