@@ -10,9 +10,9 @@
 <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <nav class="nave-container">
-        <img src="imagens/image.png" alt="" class="image-container">
-    </nav>
+<?php
+    include('layouts/header.php');
+    ?>
  <div class="centro-container">
     <h1 class="h-container">INFORMÁTICA</h1>
 </div>
@@ -20,8 +20,8 @@
     <p class="vertical-text">O curso de Informática na EEEP José de Barcelos oferece uma formação técnica abrangente em áreas como programação, redes de computadores, sistemas operacionais e banco de dados. Os alunos têm acesso a laboratórios bem equipados para desenvolver habilidades práticas e são preparados para entrar no mercado de trabalho ou continuar seus estudos na área de tecnologia da informação.</p>
 </div>
 <div class="losbutones">
-  <button class="irpara_a"><a href="categ.html" target="_self">IR PARA A MATRÍCULA</a></button>
-  <button class="irpara_b"><a href="index.html" target="_self">VOLTAR</a></button>
+  <button class="irpara_a"><a href="categ.php" target="_self">IR PARA A MATRÍCULA</a></button>
+  <button class="irpara_b"><a href="index.php" target="_self">VOLTAR</a></button>
 </div>
 </body>
 </html>

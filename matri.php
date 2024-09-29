@@ -11,13 +11,9 @@
 <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav class="nave-container">
-            <div class="imagem-container">
-                <img src="imagens/image.png" alt="" class="image-container">
-            </div>
-        </nav>
-    </header>
+<?php
+    include('layouts/header.php');
+    ?>
     <form action="#" method="post">
         <section>
             <h1>DADOS PESSOAIS DO(A) ALUNO(A)</h1>
@@ -49,8 +45,8 @@
                 <label for="">Email do Aluno: <br><input type="text"></label><br>
             </div>
             <div class="lobutone">
-                <button class="newpage"><a href="matri2.html" target="_self">PRÓXIMA PÁGINA</a></button>
-                <button class="voltar"><a href="categ.html" target="_self">VOLTAR</a></button>
+                <button class="newpage"><a href="matri2.php" target="_self">PRÓXIMA PÁGINA</a></button>
+                <button class="voltar"><a href="categ.php" target="_self">VOLTAR</a></button>
             </div>
         </section>
     </form>

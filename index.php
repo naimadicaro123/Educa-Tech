@@ -7,13 +7,9 @@
     <link rel="stylesheet" href="css's/style.css">
 </head>
 <body>
-    <header>
-        <nav class="nave-container">
-            <div class="imagem-container">
-                <img src="imagens/image.png" alt="" class="image-container">
-            </div>
-        </nav>
-    </header>
+    <?php
+    include('layouts/header.php');
+    ?>
     <main>
         <form action="php/test.php" method="POST" target="_blank">
     <!--<h2 class="forms">FORMULÁRIO DE MATRÍCULA</h2><br>
@@ -27,10 +23,10 @@
     </div> -->
         <div class="selecione-container">
         <br><h1 class="sela">SELECIONE SEU CURSO</h1><br>
-        <button type="submit" ><a href="infor.html" target="_self" class="links">INFORMATICA</a></button><br>
-        <button type="submit"><a href="enfer.html" target="_self" class="links">ENFERMAGEM</a></button><br>
-        <button type="submit"><a href="estet.html" target="_self" class="links">ESTÉTICA</a></button><br>
-        <button type="submit"><a href="finan.html" target="_self" class="links">FINANÇAS1</a></button>
+        <button type="submit" ><a href="infor.php" target="_self" class="links">INFORMATICA</a></button><br>
+        <button type="submit"><a href="enfer.php" target="_self" class="links">ENFERMAGEM</a></button><br>
+        <button type="submit"><a href="estet.php" target="_self" class="links">ESTÉTICA</a></button><br>
+        <button type="submit"><a href="finan.php" target="_self" class="links">FINANÇAS1</a></button>
     </div>
 </form>
 </main>

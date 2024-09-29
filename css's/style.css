@@ -649,7 +649,6 @@ a{
 label{
   cursor: pointer;
 }
-<<<<<<< HEAD
 button:hover:{
   background-color: black;
   transition: 0.5s ease-in-out;  
@@ -679,59 +678,7 @@ h1{
   margin-bottom: 5px;
   color: white;
 }
-.schol-container{
-  text-align: center;
-  justify-content: center;
-}
-#NomEscola{
- background-color: #0E522D;
- border-bottom: 20px;
- margin-bottom: 10px;
- color: white;
-}
-.dados-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centralizando a div dados-container */
-}
-.escuela{
-  margin-bottom: 10px;
-  font-size: 25px;
-}
-.labao{
-  font-size: 25px;
-  gap: 20px;
-}
-.dados-radio-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
-}
-.dados-radio-container label {
-  display: block;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
 
-.dados-radio-container input[type="radio"] {
-  display: none;
-}
-
-.dados-radio-container label::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #000;
-  border-radius: 50%;
-  margin-right: 20px; /* Aumente o valor para aumentar a separação */
-  vertical-align: middle;
-}
-
-.dados-radio-container input[type="radio"]:checked + label::before {
-  background-color: #0E522D;
-}
 .nave-container{
   display: flex;
     justify-content: center;
@@ -796,4 +743,72 @@ button{
   justify-content: center;
   text-decoration: none;
 }
+.centralized {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column; /* Adiciona direção de coluna */
+}
+.anterior{
+  width: 60%; /* Ocupa toda a largura disponível */
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+.great_avises {
+  display: flex;
+  flex-direction: column; /* Coloca os avisos em coluna */
+  align-items: center; /* Centraliza as caixas */
+  width: 100%; /* Ocupa toda a largura disponível */
+  text-align: center;
+}
+
+.caixas_aviso {
+  margin: 10px 0; /* Adiciona margem vertical entre as caixas */
+  width: 100%; /* Faz com que as caixas ocupem toda a largura */
+  flex-direction: column; /* Coloca os avisos em coluna */
+  align-items: center; /* Centraliza as caixas */
+  width: 60%; /* Ocupa toda a largura disponível */
+  text-align: center;
+  justify-content: center;
+  background-color: #0E522D;
+  border-radius: 15px;
+  padding: 0px;
+}
+
+.textos_aviso {
+  justify-content: flex-start; /* Alinha textos à esquerda */
+  text-align: left; /* Alinha o texto à esquerda */
+  width: 100%; /* Faz com que o texto ocupe toda a largura da caixa */
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.photo-button {
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline-block; /* Para o layout */
+}
+
+.photo-button a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
 

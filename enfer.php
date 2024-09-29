@@ -10,11 +10,9 @@
 <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <nav class="nave-container">
-        <div class="imagem-container">
-        <img src="imagens/image.png" alt="" class="image-container">
-    </div>
-    </nav>
+<?php
+    include('layouts/header.php');
+    ?>
  <div class="centro-container">
     <h1 class="h-container">ENFERMAGEM</h1>
 </div>
@@ -22,8 +20,8 @@
     <p class="textos">O curso de Enfermagem na EEEP José de Barcelos oferece uma formação completa em saúde, abrangendo teoria e prática em áreas como anatomia, fisiologia, farmacologia e cuidados de enfermagem. Os alunos realizam estágios em hospitais e clínicas, preparando-se para trabalhar como enfermeiros ou seguir estudos avançados na área.</p>
 </div>
 <div class="lobutone">
-  <button class="irpara_c"><a href="categ.html" target="_self">IR PARA A MATRÍCULA</a></button>
-  <button class="irpara_d"><a href="index.html" target="_self">VOLTAR</a></button>
+  <button class="irpara_c"><a href="categ.php" target="_self">IR PARA A MATRÍCULA</a></button>
+  <button class="irpara_d"><a href="index.php" target="_self">VOLTAR</a></button>
 </div>
 </body>
 </html>
