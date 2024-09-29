@@ -1,85 +1,102 @@
-*{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #6cdf72;
     color: white;
+    font-family: Arial, sans-serif;
 }
-h1{
-    text-align: center;
-    margin-bottom: 20px;
 
-    margin-top: 20px;
+h1 {
+    text-align: center;
+    margin: 20px 0;
 }
-.infor-container{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+
+.infor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-input{
+
+input {
     background-color: #0E522D;
-    border-bottom-color: white;
     color: white;
-    border: 0px;
-    border-radius:5px ;
+    border: none;
+    border-radius: 5px;
     padding: 10px;
     font-size: 20px;
+    width: 100%;
 }
+
 .infor-container label {
-text-align: center;
-margin-bottom: 10px;
-font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
 }
-.numcomp-container{
-    margin-right: 20px;
-    text-align: right;
+
+.numcomp-container {
     display: flex;
-    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 }
-.nave-container{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100px;
-      background-color: #0E522D;
-  }
-  .nave-container label{
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 20px;
-  }
-  .numerus-container{
-    margin-right: 20px;
-  }
-  .image-container{
-    width: 120px;
-    height: 100px;
-  }
-.lobutone{
+
+.numcomp-item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.newpage{
-    background-color:#0E522D ;
-border: 0;
-font-size: 20px;
-padding: 10px;
-border-radius: 5px;
+
+.numcomp-item label {
+    margin-bottom: 5px;
+    font-size: 20px;
 }
-.voltar{
-    background-color:#6cdf72 ;
-    border: 0;
-    height: 40px;
-font-size: 20px;
-padding: 10px;
-margin-bottom: 20px;
+
+.nave-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0E522D;
 }
-a{
+
+.image-container {
+    width: 120px;
+    height: 100px;
+}
+
+.lobutone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newpage,
+.voltar {
+    background-color: #0E522D;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.voltar {
+    background-color: #6cdf72;
+}
+
+a {
     text-decoration: none;
     color: white;
 }
-label{
+
+label {
     cursor: pointer;
 }

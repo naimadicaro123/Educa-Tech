@@ -27,11 +27,17 @@
                 <label for="">Nacionalidade: <br><input type="text"></label><br>
                 <label for="">Cidade: <br><input type="text"></label><br>
                 <label for="">Estado: <br><input type="text"></label><br>
-                <label for="">Data de Nascimento: <br><input type="date" id="dataInput" placeholder="dd/mm/aaaa" maxlength="10" ></label><br>
+                <label for="">Data de Nascimento: <br><input type="date" id="dataInput" placeholder="dd/mm/aaaa" maxlength="10"></label><br>
                 <label for="">Endereço (Rua, Avenida, Travessa): <br><input type="text"></label><br>
                 <div class="numcomp-container">
-                    <label for="">Número: <input type="text" class="numerus-container"></label>
-                    <label for="">Complemento: <input type="text"></label>
+                    <div class="numcomp-item">
+                        <label for="">Número:</label><br>
+                        <input type="text" class="numerus-container">
+                    </div>
+                    <div class="numcomp-item">
+                        <label for="">Complemento:</label><br>
+                        <input type="text">
+                    </div>
                 </div><br>
                 <label for="">Bairro: <br><input type="text"></label><br>
                 <label for="">CEP: <br><input type="text"></label><br>
@@ -45,6 +51,5 @@
             </div>
         </section>
     </form>
-    
 </body>
 </html>
