@@ -41,3 +41,8 @@ fileInput.addEventListener('change', (event) => {
         reader.readAsDataURL(file);
     }
 });
+document.getElementById('meuSelect').addEventListener('change', function() {
+    if (this.value !== "") {
+        this.options[0].disabled = true; // Desabilita a opção "Dificuldades" após a seleção
+    }
+}); 

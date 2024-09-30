@@ -656,3 +656,6 @@ video {
   height: auto;
   margin-right: 10px;
 }
+.placeholder {
+  display: none; /* Esconde a opção placeholder ao selecionar */
+}

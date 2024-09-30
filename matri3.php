@@ -18,9 +18,35 @@
 <section class="centrelized">
     <h1 class></h1>
 <form id="health">
-        
+    <div>
+    <h2 class="">Dificuldades</h2>
+    <label for="opcoes">
+    <select id="meuSelect" name="opcoes" onchange="this.classList.remove('placeholder')">
+        <option value="" class="placeholder" selected>Dificuldades</option>
+        <option value="facil">Fácil</option>
+        <option value="medio">Médio</option>
+        <option value="dificil">Difícil</option>
+    </select>
+    </label>
+    <label for="">
+        <input type="text" placeholder="No caso de outros, quais?">
+    </label>
+    </div>
+    <div>
+        <h2 class="">Doenças</h2>
+<label for="">
+    <input type="text" placeholder="Doenças mais frequentes">
+</label>
+<label for="">
+    <input type="text" placeholder="Doenças Permanents">
+</label>
+<label for="">
+    <input type="text" placeholder="Doenças graves nas familias">
+</label>
+    </div>
     </form>
 </section>
-</main>    
+</main>  
+<script src="scripts/script.js"></script>  
 </body>
 </html>
