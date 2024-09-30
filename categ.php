@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parte 1</title>
-    <link rel="stylesheet" href="css's/categ.css">
+    <link rel="stylesheet" href="css's/style.css">
+    <link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="imagens/favicon.png" type="image/png">
+<link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav class="nave-container">
-            <div class="imagem-container">
-            <img src="imagens/image.png" alt="" class="image-container">
-        </div>
-        </nav>
-    </header>
+<?php
+    include('layouts/header.php');
+    ?>
     <main>
         <form action="php/test.php" method="POST" target="_blank">
     <!--<h2 class="forms">FORMULÁRIO DE MATRÍCULA</h2><br>
@@ -27,14 +26,14 @@
     </div> -->
         <div class="selecione-container">
         <br><h1 class="sela">SELECIONE A CATEGORIA</h1><br>
-        <button type="submit" ><a href="matri.html" target="_self" class="links">DADOS PESSOAIS <br> DO(A) ALUNO</a></button><br>
-        <button type="submit"><a href="enfer.html" target="_self" class="links">DOCUMENTAÇÃO DO(A) <BR>ALUNO(A)</a></button><br>
-        <button type="submit"><a href="estet.html" target="_self" class="links">DADOS DE SAÚDE DO(A)<BR>ALUNO(A)</a></button>
+        <button type="submit" ><a href="matri.php" target="_self" class="links">DADOS PESSOAIS <br> DO(A) ALUNO</a></button><br>
+        <button type="submit"><a href="matri2.php" target="_self" class="links">DOCUMENTAÇÃO DO(A) <BR>ALUNO(A)</a></button><br>
+        <button type="submit" class="ultimo"><a href="#" target="_self" class="links">DADOS DE SAÚDE DO(A)<BR>ALUNO(A)</a></button>
     </div>
     <DIV class="final-content">
         <button class="finalizar"><a href="#">FINALIZAR</a></button>
     </DIV>
-    <button class="back-container"><a href="index.html">VOLTAR</a></button>
+    <button class="back-container"><a href="index.php">VOLTAR</a></button>
 
 </form>
 </main>

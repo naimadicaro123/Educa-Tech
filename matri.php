@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matrícula</title>
-    <link rel="stylesheet" href="css's/matri.css">
+    <link rel="stylesheet" href="css's/style.css">
     <script src="consol.js"></script>
+    <link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="imagens/favicon.png" type="image/png">
+<link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav class="nave-container">
-            <div class="imagem-container">
-                <img src="imagens/image.png" alt="" class="image-container">
-            </div>
-        </nav>
-    </header>
+<?php
+    include('layouts/header.php');
+    ?>
     <form action="#" method="post">
         <section>
             <h1>DADOS PESSOAIS DO(A) ALUNO(A)</h1>
@@ -27,11 +26,17 @@
                 <label for="">Nacionalidade: <br><input type="text"></label><br>
                 <label for="">Cidade: <br><input type="text"></label><br>
                 <label for="">Estado: <br><input type="text"></label><br>
-                <label for="">Data de Nascimento: <br><input type="date" id="dataInput" placeholder="dd/mm/aaaa" maxlength="10" ></label><br>
+                <label for="">Data de Nascimento: <br><input type="date" id="dataInput" placeholder="dd/mm/aaaa" maxlength="10"></label><br>
                 <label for="">Endereço (Rua, Avenida, Travessa): <br><input type="text"></label><br>
                 <div class="numcomp-container">
-                    <label for="">Número: <input type="text" class="numerus-container"></label>
-                    <label for="">Complemento: <input type="text"></label>
+                    <div class="numcomp-item">
+                        <label for="">Número:</label><br>
+                        <input type="text" class="numerus-container">
+                    </div>
+                    <div class="numcomp-item">
+                        <label for="">Complemento:</label><br>
+                        <input type="text">
+                    </div>
                 </div><br>
                 <label for="">Bairro: <br><input type="text"></label><br>
                 <label for="">CEP: <br><input type="text"></label><br>
@@ -40,11 +45,10 @@
                 <label for="">Email do Aluno: <br><input type="text"></label><br>
             </div>
             <div class="lobutone">
-                <button class="newpage"><a href="matri2.html" target="_self">PRÓXIMA PÁGINA</a></button>
-                <button class="voltar"><a href="categ.html" target="_self">VOLTAR</a></button>
+                <button class="newpage"><a href="matri2.php" target="_self">PRÓXIMA PÁGINA</a></button>
+                <button class="voltar"><a href="categ.php" target="_self">VOLTAR</a></button>
             </div>
         </section>
     </form>
-    
 </body>
 </html>
