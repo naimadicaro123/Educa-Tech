@@ -2,6 +2,7 @@
   --main-clara: #147a3e;
   --main-branco: #ffff;
   --main-escuro: #0E522d;
+  --hover-preto: #0000000
 }
 
 *{
@@ -41,6 +42,7 @@ body{
 }
 .curso{
   background-color: var(--main-escuro);
+  padding: 20px;
 }
 .vertical-text{
   color: var(--main-branco);
@@ -66,8 +68,7 @@ h1{
   align-items: center;
   border-radius: 5px;
 }
-
-button{
+.curso{
   background-color: #0E522d;
   color: white;
   font-size: 20px;
@@ -78,19 +79,19 @@ button{
   max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
   margin: 10px 0; /* Espaçamento vertical entre os botões */
   overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
-  height: 50px; /* Altura fixa */
+  height: 60px; /* Altura fixa */
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
 }
 
-button:hover{
+.curso:hover{
   background-color: black;
   transition: 0.5s ease-in-out;
 }
 
-a {
+.curso a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -210,7 +211,6 @@ a{
   text-decoration: none;
   color: white;
 }
-
 p{
   font-size: 30px;
   padding: 20px;
@@ -586,6 +586,9 @@ button{
   justify-content: center;
   text-decoration: none;
 }
+.bottons{
+  padding: 20px;
+}
 .centralized {
   display: flex;
   justify-content: center;
@@ -653,5 +656,3 @@ video {
   height: auto;
   margin-right: 10px;
 }
-
-
