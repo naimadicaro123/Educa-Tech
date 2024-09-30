@@ -26,9 +26,9 @@
     </div> -->
         <div class="selecione-container">
         <br><h1 class="sela">SELECIONE A CATEGORIA</h1><br>
-        <button type="submit" ><a href="matri.php" target="_self" class="links">DADOS PESSOAIS <br> DO(A) ALUNO</a></button><br>
-        <button type="submit"><a href="matri2.php" target="_self" class="links">DOCUMENTAÇÃO DO(A) <BR>ALUNO(A)</a></button><br>
-        <button type="submit" class="ultimo"><a href="#" target="_self" class="links">DADOS DE SAÚDE DO(A)<BR>ALUNO(A)</a></button>
+        <button type="submit" class="curso"><a href="matri.php" target="_self" class="links">DADOS PESSOAIS <br> DO(A) ALUNO</a></button><br>
+        <button type="submit" class="curso"><a href="matri2.php" target="_self" class="links">DOCUMENTAÇÃO DO(A) <BR>ALUNO(A)</a></button><br>
+        <button type="submit" class="curso"><a href="#" target="_self" class="links">DADOS DE SAÚDE DO(A)<BR>ALUNO(A)</a></button>
     </div>
     <DIV class="final-content">
         <button class="finalizar"><a href="#">FINALIZAR</a></button>
