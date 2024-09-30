@@ -54,6 +54,11 @@ button{
     width: 100%;
     max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
     margin: 10px 0; /* Espaçamento vertical entre os botões */
+  
+}
+button:hover{
+  background-color: black;
+  transition: 0.5s ;
 }
 a{
     text-decoration: none;
