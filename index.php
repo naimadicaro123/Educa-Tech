@@ -23,11 +23,7 @@
     </div> -->
         <div class="selecione-container">
         <br><h1 class="sela">SELECIONE SEU CURSO</h1><br>
-        <button type="submit" class="curso"><a href="infor.php" target="_self" class="links">INFORMÁ
-            
-        
-        
-        TICA</a></button><br>
+        <button type="submit" class="curso"><a href="infor.php" target="_self" class="links">INFORMÁTICA</a></button><br>
         <button type="submit" class="curso"><a href="enfer.php" target="_self" class="links">ENFERMAGEM</a></button><br>
         <button type="submit" class="curso"><a href="estet.php" target="_self" class="links">ESTÉTICA</a></button><br>
         <button type="submit" class="curso"><a href="finan.php" target="_self" class="links">FINANÇAS</a></button>
