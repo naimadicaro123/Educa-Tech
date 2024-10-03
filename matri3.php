@@ -19,7 +19,7 @@
     <h1 class></h1>
 <form id="health">
     <div>
-    <h2 class="">Dificuldades</h2>
+    <h2 class="dificuldades">Dificuldades</h2>
     <label for="opcoes">
     <select id="meuSelect" name="opcoes" onchange="this.classList.remove('placeholder')">
         <option value="" class="placeholder" selected>Dificuldades</option>
@@ -33,20 +33,35 @@
     </label>
     </div>
     <div>
-        <h2 class="">Doenças</h2>
-<label for="">
-    <input type="text" placeholder="Doenças mais frequentes">
+        <h2 class="subtopico">Doenças</h2>
+<label for="" class="great_label">
+    <input type="text" placeholder="Doenças mais frequentes" class="frequent">
 </label>
-<label for="">
-    <input type="text" placeholder="Doenças Permanents">
+<label for="" class="great_label">
+    <input type="text" placeholder="Doenças Permanents" class="permanet">
 </label>
-<label for="">
-    <input type="text" placeholder="Doenças graves nas familias">
+<label for="" class="great_label">
+    <input type="text" placeholder="Doenças graves nas familias" class="grave">
 </label>
+</div>
+    <div class="header_pain">
+        <h2 class="subtopico">Dor de Cabeça</h2>
+        <label for="">
+            <input type="text" placeholder="Costume ter dor de cabeça?" name="costume">
+        </label>
+        <label for="">
+            <input type="text" placeholder="Qual medicamento costuma tomar?">
+        </label>
     </div>
-    <div>
-        
+    <div class="header_two_pain">
+        <label for="">
+            
+        </label>
     </div>
+    <div class="lobutone">
+                <button class="newpage" type="button"><a href="matri3.php" target="_self">PRÓXIMA PÁGINA</a></button>
+                <button class="voltar" type="button"><a href="categ.php" target="_self">VOLTAR</a></button>
+            </div>
     </form>
 </section>
 </main>  

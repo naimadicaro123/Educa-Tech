@@ -659,3 +659,9 @@ video {
 .placeholder {
   display: none; /* Esconde a opção placeholder ao selecionar */
 }
+.subtopico{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
