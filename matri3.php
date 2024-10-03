@@ -54,8 +54,23 @@
         </label>
     </div>
     <div class="header_two_pain">
-        <label for="">
-            
+        <h2 class="subtopico">Dor de Cabeça</h2>
+        <label for="uso">
+            <input type="text" name="uso" placeholder="Faz uso de algum medicamento?">
+        </label>
+<label for="tomar">
+      <input type="text" name="tomar" placeholder="Qual medicamento costuma tomar">
+</label>
+<label for="horario">
+   <input type="text" name="horario" placeholder="Em quais horários?">
+</label>
+    </div>
+    <div class="alergias">
+        <label for="medicamento">
+            <input type="text" class="medicamento" placeholder="Tem alergia a algum medicamento?">
+        </label>
+        <label for="qual">
+            <input type="text" class="qual" placeholder="Qual?">
         </label>
     </div>
     <div class="lobutone">
