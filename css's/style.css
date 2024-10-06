@@ -626,6 +626,9 @@ button{
   justify-content: flex-start; /* Alinha textos à esquerda */
   text-align: left; /* Alinha o texto à esquerda */
   width: 100%; /* Faz com que o texto ocupe toda a largura da caixa */
+  background-color: var(--main-escuro);
+  border-radius: 15px;
+  color: var(--main-branco);
 }
 .container {
   position: relative;

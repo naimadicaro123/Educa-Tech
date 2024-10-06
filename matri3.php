@@ -35,46 +35,80 @@
     <div>
         <h2 class="subtopico">Doenças</h2>
 <label for="" class="great_label">
-    <input type="text" placeholder="Doenças mais frequentes" class="frequent">
+    <input type="text" placeholder="Doenças mais frequentes" class="doenca">
 </label>
 <label for="" class="great_label">
-    <input type="text" placeholder="Doenças Permanents" class="permanet">
+    <input type="text" placeholder="Doenças Permanents" class="doenca">
 </label>
 <label for="" class="great_label">
-    <input type="text" placeholder="Doenças graves nas familias" class="grave">
+    <input type="text" placeholder="Doenças graves nas familias" class="doenca">
 </label>
 </div>
     <div class="header_pain">
         <h2 class="subtopico">Dor de Cabeça</h2>
         <label for="">
-            <input type="text" placeholder="Costume ter dor de cabeça?" name="costume">
+            <input type="text" placeholder="Costume ter dor de cabeça?" name="costume" class="doenca">
         </label>
         <label for="">
-            <input type="text" placeholder="Qual medicamento costuma tomar?">
+            <input type="text" placeholder="Qual medicamento costuma tomar?" class="doenca">
         </label>
     </div>
     <div class="header_two_pain">
         <h2 class="subtopico">Dor de Cabeça</h2>
         <label for="uso">
-            <input type="text" name="uso" placeholder="Faz uso de algum medicamento?">
+            <input type="text" name="uso" class="doenca" placeholder="Faz uso de algum medicamento?">
         </label>
 <label for="tomar">
-      <input type="text" name="tomar" placeholder="Qual medicamento costuma tomar">
+      <input type="text" name="tomar" placeholder="Qual medicamento costuma tomar" class="doenca">
 </label>
 <label for="horario">
-   <input type="text" name="horario" placeholder="Em quais horários?">
+   <input type="text" name="horario" placeholder="Em quais horários?" class="doenca">
 </label>
     </div>
     <div class="alergias">
+        <h2 class="subtopico">Alergias</h2>
         <label for="medicamento">
-            <input type="text" class="medicamento" placeholder="Tem alergia a algum medicamento?">
+            <input type="text" class="doenca" placeholder="Tem alergia a algum medicamento?" class="doenca">
         </label>
         <label for="qual">
-            <input type="text" class="qual" placeholder="Qual?">
+            <input type="text" class="doenca" placeholder="Qual?">
+        </label>
+        <label for="">
+            <input type="text" class="doenca" placeholder="Tem alergia a algum alimento?">
+        </label>
+        <label for="qual">
+            <input type="text" class="doenca" placeholder="Qual?">
+        </label>
+    </div>
+    <div class="alimento">
+        <h2 class="subtopico">Alimentação</h2>
+        <label for="">
+            <input type="text" class="doenca" placeholder="Alimenta-se ao sair de casa?">
+        </label>
+        <label for="">
+            <input type="text" class="doenca" placeholder="O que?">
+        </label>
+    </div>
+    <div class="sleep">
+        <h2 class="subtopico">Sono</h2>
+        <label for="">
+            <input type="text" class="doenca" placeholder="A que horas costume dormir?">
+        </label>
+        <label for="">
+            <input type="text" class="doenca" placeholder="Números de horas por noite?">
+        </label>
+    </div>
+    <div class="blood">
+        <h2 class="subtopico">Tipo sanguíneo</h2>
+        <label for="">
+            <input type="text" class="doenca" placeholder="Qual o tipo sanguíneo?">
+        </label>
+        <label for="">
+            <input type="submit" class="doenca" placeholder="RH">
         </label>
     </div>
     <div class="lobutone">
-                <button class="newpage" type="button"><a href="matri3.php" target="_self">PRÓXIMA PÁGINA</a></button>
+                <button class="newpage" type="button"><a href="categ.php" target="_self">PRÓXIMA PÁGINA</a></button>
                 <button class="voltar" type="button"><a href="categ.php" target="_self">VOLTAR</a></button>
             </div>
     </form>
