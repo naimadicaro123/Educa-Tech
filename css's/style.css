@@ -1,327 +1,226 @@
-:root{
+:root {
   --main-clara: #147a3e;
-  --main-branco: #ffff;
+  --main-branco: #fff;
   --main-escuro: #0E522d;
-  --hover-preto: #000000;
 }
 
-*{
+* {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--main-clara);
 }
 
-body{
+body, .main_content {
   background-color: var(--main-clara);
 }
-.main_content{
-  background-color: var(--main-clara);
-}
-.nave-container{
+
+.nave-container {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    background-color: #147a3e;
-    margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: var(--main-clara);
+  margin-bottom: 20px;
 }
-.image-container{
+
+.image-container {
   width: 120px;
   height: 100px;
 }
-.h-container{
-  background-color:  #147a3e;
+
+.h-container {
+  background-color: var(--main-clara);
   text-align: center;
   display: inline-block;
   padding: 10px 20px;
-  margin: 0 auto 20px auto;
-  align-items: center;
+  margin: 0 auto 20px;
   border-radius: 5px;
 }
-.button{
+
+.button, .selecione-container button, .curso {
   background-color: var(--main-escuro);
 }
-.curso{
-  background-color: var(--main-escuro);
-  padding: 20px;
-}
-.vertical-text{
-  color: var(--main-branco);
-}
-.centro-container{
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
 
-.forms{
-  text-align: center;
-}
-
-h1{
-  display: block;
+.vertical-text {
   color: var(--main-branco);
 }
 
-.selecione-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 5px;
-}
-.curso{
-  background-color: #0E522d;
-  color: white;
-  font-size: 20px;
-  border-radius: 5px;
-  padding: 0; /* Remover padding do botão para que o link ocupe todo o espaço */
-  border: 0;
-  width: 100%;
-  max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
-  margin: 10px 0; /* Espaçamento vertical entre os botões */
-  overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
-  height: 60px; /* Altura fixa */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
+.centro-container, .forms {
+  text-align: center;
 }
 
-.curso:hover{
-  background-color: black;
-  transition: 0.5s ease-in-out;
+h1 {
+  color: var(--main-branco);
 }
 
-.curso a {
+a {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
   text-align: center;
-  padding: 0; /* Remover padding do link para centralizar o conteúdo */
   text-decoration: none;
   color: white;
+  background-color: #0E522d;
+}
+
+.selecione-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: var(--main-escuro);
+}
+
+.curso {
+  color: white;
+  font-size: 20px;
+  border: 0;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.curso:hover {
+  background-color: black;
+  transition: 0.5s ease-in-out;
 }
 
 button svg {
-  height: 50%; /* Faz o SVG ocupar toda a altura do contêiner */
+  height: 50%;
   width: auto;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
+
 @media screen and (max-width: 453px) {
   .selecione-container {
-      margin: 0 20px;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      font-size: 20px;
+    margin: 0 20px;
+    font-size: 20px;
   }
-  .sela{
+  .sela {
     font-size: 25px;
   }
 }
+
 @media screen and (max-width: 332px) {
-  .sela{
+  .sela {
     font-size: 15px;
   }
 }
-p{
+
+p {
   font-size: 30px;
 }
-.otexto-container{
+
+.otexto-container {
   text-align: center;
-  vertical-align: middle;
-  margin-bottom: 20px;
+  margin: 0 20px 20px;
   font-size: 25px;
-  margin-right: 20px;
-  margin-left: 20px;
 }
-.losbutones{
+
+.losbutones {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.irpara_a:hover{
-  background-color: black;
-  transition: 1s;
-}
-.irpara_a{
+
+.irpara_a {
   background-color: var(--main-escuro);
   border: 0;
   font-size: 20px;
-  border-radius: 5px  ;
+  border-radius: 5px;
   padding: 10px;
 }
+
+.irpara_a:hover {
+  background-color: black;
+  transition: 1s;
+}
+
+
 @media only screen and (max-width: 600px) {
   p {
-      font-size:3s5px ;
+    font-size: 35px; /* Corrigido o valor de font-size */
   }
-  img{
-      width: 100%;
+  img {
+    width: 100%;
   }
 }
-.irpara_b{
+
+* {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-size: 30px;
+  padding: 20px 20px 0; /* Simplificado */
+}
+
+.texto-container {
+  text-align: center;
+  margin: 0 20px 20px; /* Simplificado */
+  font-size: 25px;
+}
+
+.lobutone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.irpara_b,
+.irpara_c,
+.irpara_d,
+.irpara_g,
+.irpara_h {
   background-color: var(--main-escuro);
   border: 0;
-  height: 40px;
   font-size: 20px;
   padding: 10px;
+  border-radius: 5px;
+}
 
+.irpara_b,
+.irpara_d {
+  height: 40px;
 }
-a{
-  text-decoration: none;
-  color: white;
-}
-p{
-  font-size: 30px;
-}
-.texto-container{
-  text-align: center;
-  vertical-align: middle;
-  margin-bottom: 20px;
-  font-size: 25px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-.lobutone{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.irpara_c{
-  background-color:var(--main-escuro) ;
-border: 0;
-font-size: 20px;
-padding: 10px;
-border-radius: 5px;
-}
-.irpara_c:hover{
+
+.irpara_c:hover,
+.irpara_g:hover,
+.irpara_h:hover {
   background-color: black;
   transition: 1s;
 }
-.irpara_d{
-background-color: var(--main-escuro);
-  border: 0;
-  height: 40px;
-font-size: 20px;
-padding: 10px;
-border-radius: 5px;
-}
-a{
-  text-decoration: none;
-  color: white;
-}
-p{
-  font-size: 30px;
-  padding: 20px;
-  padding-right: 20px;
-}
-.texto-container{
-  text-align: center;
-  vertical-align: middle;
-  margin-bottom:20px ;
-}
-.lobutone{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.irpara_c{
-  background-color: var(--main-escuro);
-border: 0;
-font-size: 20px;
-padding: 10px;
-border-radius: 5px;
-}
-.irpara_c:hover{
-  background-color: black;
-  transition: 1s;
-}
-.irpara_d{
-background-color: var(--main-escuro);
-  border: 0;
-  height: 40px;
-font-size: 20px;
-padding: 10px;
-border-radius: 5px;
-}
-a{
-  text-decoration: none;
-  color: white;
-}
-.h-container{
-  background-color:  #147a3e;
+.h-container {
+  background-color: #147a3e;
   text-align: center;
   display: inline-block;
   padding: 10px 20px;
-  margin: 20px auto 20px auto;
-  align-items: center;
+  margin: 20px auto;
   border-radius: 5px;
 }
-.centro-container{
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-p{
-  font-size: 30px;
-}
-.texto-container{
-  text-align: center;
-  vertical-align: middle;
-  margin-bottom:20px ;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-.lobutone{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.irpara_g{
-  background-color: var(--main-escuro) ;
-border: 0;
-font-size: 20px;
-padding: 10px;
-border-radius: 5px;
-}
-.irpara_g:hover{
-background-color: black;
-transition: 1s;
-}
-.irpara_h{
-  background-color:var(--main-escuro) ;
-  border: 0;
-  height: 40px;
-font-size: 20px;
-padding: 10px;
-border-radius: 5px;
-}
-a{
-  text-decoration: none;
-  color: white;
-}
-
-.forms {
-  text-align: center;
-}
-
-h1 {
-  margin-: 20px;
-  display: block;
-  color: var(--main-branco);
-  margin-bottom: 20px;
-
-}
-
+.centro-container,
 .AnoCurso-container {
   text-align: center;
 }
 
-h3, select {
+h1 {
+  display: block;
+  color: var(--main-branco);
+  margin: 20px 0;
+}
+
+h3,
+select {
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -332,36 +231,50 @@ h3, select {
   flex-direction: column;
   align-items: center;
   margin: 0 20px;
+  border-radius: 5px;
+  background-color: var(--main-escuro);
 }
 
-.selecione-container {
-  border-radius: 5px;
+.forms {
+  text-align: center;
 }
 
 button {
-  background-color: #147a3e;
+  background-color: var(--main-escuro);
   color: white;
   font-size: 20px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 0; /* Removido o padding desnecessário */
   border: 0;
   width: 100%;
   max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
   margin: 10px 0; /* Espaçamento vertical entre os botões */
+  height: 50px; /* Altura fixa */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
 }
-.final-content{
+
+button:hover {
+  background-color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.final-content {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
 }
-.finalizar{
-  margin: 0 auto;
-  background-color: grey;
+
+.finalizar {
+  margin: 0 auto 20px;
+  background-color: #0E522d;
   cursor: pointer;
   display: inline-block;
-  margin-bottom:20px ;
 }
+
 a {
   text-decoration: none;
   color: white;
@@ -369,239 +282,149 @@ a {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .selecione-container {
-      margin: 0 20px;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-  }
-}
-.back-container{
+.back-container {
   display: block;
   justify-content: center;
-  align-items: center;s
-  margin-top: 10px;
-  margin: auto;
-  margin-bottom: 10px;
-
-}
-/* @media (min-width: 377px)and(max-width: 768px) {
-  .selecione-container {
-      margin: 0 20px;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-  }
-} */
-@media screen and (max-width: 453px) {
-  .selecione-container {
-      margin: 0 20px;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      font-size: 15px;
-  }
-}
-@media screen and (max-width: 453px) {
-  button{
-      margin-top: 10px;
-      margin-bottom: -5px;
-  }
-  .ultimo{
-       background-color: var(--main-escuro);
-  }
-  .back-container{
-      margin-top: 5px;
-      margin-bottom: 5px;
-  }
-  .finalizar{
-      margin-top: -45px;
-      margin-bottom: 5px;
-  }
-}
-button:hover{
-  background-color: black;
-  transition: 0.5s ease-in-out;  
+  align-items: center;
+  margin: 10px auto;
 }
 
-h1{
+@media (min-width: 768px) {
+  .selecione-container {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 453px) {
+  .selecione-container {
+    font-size: 15px;
+  }
+
+  button {
+    margin-top: 10px;
+    margin-bottom: -5px;
+  }
+
+  .ultimo {
+    background-color: var(--main-escuro);
+  }
+
+  .back-container {
+    margin: 5px auto;
+  }
+
+  .finalizar {
+    margin-top: -45px;
+  }
+}
+
+h1 {
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-top: 20px;
+  margin: 20px 0;
 }
-.infor-container{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+
+.infor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-input{
+
+input {
   background-color: #147a3e;
-  border-bottom-color: white;
   color: white;
-  border: 0px;
-  border-radius:5px ;
+  border: 0;
+  border-radius: 5px;
   padding: 10px;
   font-size: 20px;
 }
+
 .infor-container label {
-text-align: center;
-margin-bottom: 10px;
-font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 25px;
 }
-.numcomp-container{
+
+.numcomp-container {
   margin: 0 auto;
   text-align: center;
   display: inline-flex;
   padding: 10px;
   justify-content: center;
 }
-@media (min-width: 768px) {
-  .numcomp-container input{
-      display: block;
 
-  }
+.nave-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #147a3e;
 }
-@media (min-width: 377px) {
-  .numcomp-container input{
-      display: block;
 
-  }
-}
-.nave-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    background-color: #147a3e;
-}
-.nave-container label{
-  margin-right: 20px;
-  margin-left: 20px;
+.nave-container label {
+  margin: 0 20px;
   padding: 20px;
 }
-.numerus-container{
-  margin-right: 20px;
-}
-.image-container{
+
+.image-container {
   width: 120px;
   height: 100px;
 }
-.lobutone{
+
+.lobutone {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.newpage{
-  background-color:#147a3e ;
-border: 0;
-font-size: 20px;
-padding: 10px;
-border-radius: 5px;
-}
-.voltar{
-  background-color:#147a3e ;
+
+.newpage,
+.voltar {
+  background-color: #147a3e;
   border: 0;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.voltar {
   height: 40px;
-font-size: 20px;
-padding: 10px;
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-a{
-  text-decoration: none;
-  color: white;
-}
-label{
+
+.label {
   cursor: pointer;
 }
-button:hover:{
-  background-color: black;
-  transition: 0.5s ease-in-out;  
-}
-button{
-  background-color: #147a3e;
-  color: white;
-  font-size: 20px;
-  border-radius: 5px;
-  padding: 0; /* Remover padding do botão para que o link ocupe todo o espaço */
-  border: 0;
-  width: 100%;
-  max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
-  margin: 10px 0; /* Espaçamento vertical entre os botões */
-  overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
-}
 
-
-h3{
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-.lobutone{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.newpage{
-  background-color:#147a3e ;
-border: 0;
-font-size: 20px;
-}
-.voltar{
-  background-color:#147a3e ;
-  border: 0;
-  height: 40px;
-font-size: 20px;
-}
-a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding: 0; /* Remover padding do link para centralizar o conteúdo */
-  text-decoration: none;
-  color: white;
-}
-.repete{
+.repete {
   margin-bottom: 20px;
   cursor: pointer;
 }
-button{
-  background-color: #147a3e;
-  color: white;
-  font-size: 20px;
-  border-radius: 5px;
-  padding: 0; /* Remover padding do botão para que o link ocupe todo o espaço */
-  border: 0;
-  width: 100%;
-  max-width: 300px; /* Limita a largura máxima para botões em dispositivos maiores */
-  margin: 10px 0; /* Espaçamento vertical entre os botões */
-  overflow: hidden; /* Garante que o conteúdo do botão não extrapole seus limites */
-  height: 50px; /* Altura fixa */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-.bottons{
+
+.bottons {
   padding: 20px;
 }
+
+h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
 .centralized {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: column; /* Adiciona direção de coluna */
+  flex-direction: column;
 }
-.anterior{
+
+.anterior {
   width: 60%; /* Ocupa toda a largura disponível */
-  margin-bottom: 20px;
-  margin: 0 auto;
+  margin: 0 auto 30px; /* Margem inferior de 30px */
 }
+
 .great_avises {
   display: flex;
   flex-direction: column; /* Coloca os avisos em coluna */
@@ -611,26 +434,25 @@ button{
 }
 
 .caixas_aviso {
-  margin: 10px 0; /* Adiciona margem vertical entre as caixas */
-  width: 100%; /* Faz com que as caixas ocupem toda a largura */
+  margin: 10px 0; /* Margem vertical entre as caixas */
+  width: 60%; /* Ocupa toda a largura disponível */
+  display: flex;
   flex-direction: column; /* Coloca os avisos em coluna */
   align-items: center; /* Centraliza as caixas */
-  width: 60%; /* Ocupa toda a largura disponível */
   text-align: center;
-  justify-content: center;
   background-color: var(--main-escuro);
   border-radius: 15px;
-  padding: 0px;
+  padding: 0; /* Padding definido como zero */
 }
 
 .textos_aviso {
-  justify-content: flex-start; /* Alinha textos à esquerda */
-  text-align: left; /* Alinha o texto à esquerda */
   width: 100%; /* Faz com que o texto ocupe toda a largura da caixa */
   color: var(--main-branco);
-   background-color: var(--main-escuro);
-   border-radius: 15px;
+  background-color: var(--main-escuro);
+  border-radius: 15px;
+  text-align: left; /* Alinha o texto à esquerda */
 }
+
 .container {
   position: relative;
   display: flex;
@@ -660,12 +482,12 @@ video {
   height: auto;
   margin-right: 10px;
 }
+
 .placeholder {
   display: none; /* Esconde a opção placeholder ao selecionar */
 }
-.subtopico{
+
+.subtopico {
   color: white;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
