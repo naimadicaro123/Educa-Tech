@@ -31,7 +31,7 @@
         <button type="submit" class="curso"><a href="matri3.php" target="_self" class="links">DADOS DE SAÚDE DO(A)<BR>ALUNO(A)</a></button>
     </div>
     <DIV class="final-content">
-        <button class="finalizar"><a href="#">FINALIZAR</a></button>
+        <button class="finalizar"><a href="text_final.php">FINALIZAR</a></button>
     </DIV>
     <button class="back-container"><a href="index.php">VOLTAR</a></button>
 

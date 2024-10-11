@@ -627,7 +627,7 @@ button{
   justify-content: flex-start; /* Alinha textos à esquerda */
   text-align: left; /* Alinha o texto à esquerda */
   width: 100%; /* Faz com que o texto ocupe toda a largura da caixa */
-   color: var(--main-branco);
+  color: var(--main-branco);
    background-color: var(--main-escuro);
    border-radius: 15px;
 }
@@ -659,4 +659,13 @@ video {
   width: 100%;
   height: auto;
   margin-right: 10px;
+}
+.placeholder {
+  display: none; /* Esconde a opção placeholder ao selecionar */
+}
+.subtopico{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
