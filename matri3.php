@@ -14,11 +14,19 @@
 <?php
    include('layouts/header.php');
     ?>
-    <main>
+    <main class="main-content">
 <section class="centrelized">
-    <h1 class></h1>
+    <h1 class>SAÚDE E ALIMENTAÇÃO</h1>
 <form id="health">
-        
+        <h2 class="to_left">Dificuldades</h2>
+        <label for="frutas">Escolha uma fruta:</label>
+    <select id="frutas" name="frutas">
+        <option value="maçã">Maçã</option>
+        <option value="banana">Banana</option>
+        <option value="laranja">Laranja</option>
+        <option value="uva">Uva</option>
+    </select>
+    <input type="submit" value="Enviar">
     </form>
 </section>
 </main>    

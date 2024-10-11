@@ -2,12 +2,13 @@
   --main-clara: #147a3e;
   --main-branco: #ffff;
   --main-escuro: #0E522d;
-  --hover-preto: #0000000
+  --hover-preto: #000000;
 }
 
 *{
   margin: 0;
   box-sizing: border-box;
+  background-color: var(--main-clara);
 }
 
 body{
@@ -617,7 +618,7 @@ button{
   width: 60%; /* Ocupa toda a largura disponível */
   text-align: center;
   justify-content: center;
-  background-color: #147a3e;
+  background-color: var(--main-escuro);
   border-radius: 15px;
   padding: 0px;
 }
@@ -626,6 +627,9 @@ button{
   justify-content: flex-start; /* Alinha textos à esquerda */
   text-align: left; /* Alinha o texto à esquerda */
   width: 100%; /* Faz com que o texto ocupe toda a largura da caixa */
+   color: var(--main-branco);
+   background-color: var(--main-escuro);
+   border-radius: 15px;
 }
 .container {
   position: relative;
