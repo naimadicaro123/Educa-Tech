@@ -46,3 +46,13 @@ document.getElementById('meuSelect').addEventListener('change', function() {
         this.options[0].disabled = true; // Desabilita a opção "Dificuldades" após a seleção
     }
 }); 
+// Define o tempo de duração do GIF em milissegundos
+const loadingDuration = 3000; // 3 segundos
+
+setTimeout(() => {
+    // Esconde a tela de carregamento
+    document.querySelector('.loading-container').style.display = 'none';
+    
+    // Mostra o conteúdo final
+    document.querySelector('.final-content').style.display = 'block';
+}, loadingDuration);

@@ -33,7 +33,7 @@
     <DIV class="final-content">
         <button class="finalizar"><a href="text_final.php">FINALIZAR</a></button>
     </DIV>
-    <button class="back-container"><a href="index.php">VOLTAR</a></button>
+    <button class="back-container"><a href="cursos.php">VOLTAR</a></button>
 
 </form>
 </main>

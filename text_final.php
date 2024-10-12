@@ -22,7 +22,7 @@ include('layouts/header.php')
 </div>
 <div class="losbutones">
   <button class="finalizar"><a href="categ.php" target="_self">Finalizar</a></button>
-  <button class="irpara_b"><a href="index.php" target="_self">VOLTAR</a></button>
+  <button class="irpara_b"><a href="categ.php" target="_self">VOLTAR</a></button>
 </div>
 </main>
 </body>

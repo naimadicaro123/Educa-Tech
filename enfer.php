@@ -21,7 +21,7 @@
 </div>
 <div class="lobutone">
   <button class="irpara_c"><a href="categ.php" target="_self">IR PARA A MATRÍCULA</a></button>
-  <button class="irpara_d"><a href="index.php" target="_self">VOLTAR</a></button>
+  <button class="irpara_d"><a href="cursos.php" target="_self">VOLTAR</a></button>
 </div>
 </body>
 </html>

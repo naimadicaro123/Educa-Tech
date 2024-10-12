@@ -13,6 +13,23 @@
 body{
   background-color: var(--main-clara);
 }
+
+.loading-container {
+  text-align: center;
+}
+
+.loading-gif {
+  width: 200px; /* Ajuste conforme necessário */
+  filter: hue-rotate(90deg); /* Muda a cor para verde */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.final-content {
+  text-align: center;
+  display: none; /* Esconde inicialmente */
+}
 .main_content{
   background-color: var(--main-clara);
 }
