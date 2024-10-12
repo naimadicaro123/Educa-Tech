@@ -8,8 +8,8 @@
 </head>
 <body>
     <main class="main-content">
-    <div class="loading-container">
-        <img src="imagens/educa_gif.gif" alt="Carregando" class="loading-gif">
+    <div class="loading_container">
+        <img src="imagens/educa_gif.gif" alt="Carregando" class="loading_gif">
         <h1>Carregando...</h1>
     </div>
     <div class="final-content" style="display: none;">

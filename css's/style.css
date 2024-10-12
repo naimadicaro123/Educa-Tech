@@ -69,7 +69,7 @@ a {
   flex-direction: column;
   align-items: center;
   border-radius: 5px;
-  background-color: var(--main-escuro);
+  background-color: var(--main-clara);
 }
 
 .curso {
@@ -84,11 +84,45 @@ a {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  cursor: pointer;
+  background-color: #0E522d;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .curso:hover {
   background-color: black;
-  transition: 0.5s ease-in-out;
+}
+.loading_gif{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20rem;
+  width: 20rem;
+  margin-top: 20px;
+}
+.loading_container{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.finalizar,
+.back-container {
+  margin-top: 20px;
+}
+
+.finalizar a,
+.back-container a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.finalizar:hover,
+.back-container:hover {
+  background-color: black;
 }
 
 button svg {
@@ -231,7 +265,7 @@ select {
   align-items: center;
   margin: 0 20px;
   border-radius: 5px;
-  background-color: var(--main-escuro);
+  background-color: var(--main-clara);
 }
 
 .forms {

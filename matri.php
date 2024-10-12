@@ -45,8 +45,8 @@
                 <label for="">Email do Aluno: <br><input type="text"></label><br>
             </div>
             <div class="lobutone">
-                <button class="newpage"><a href="matri2.php" target="_self">PRÓXIMA PÁGINA</a></button>
-                <button class="voltar"><a href="categ.php" target="_self">VOLTAR</a></button>
+            <button type="button" class="curso" onclick="location.href='matri2.php';">PRÓXIMA PÁGINA</button><br>
+            <button type="button" class="curso" onclick="location.href='categ.php';">VOLTAR</button><br>
             </div>
         </section>
     </form>

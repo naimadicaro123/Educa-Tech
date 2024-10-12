@@ -108,8 +108,8 @@
         </label>
     </div>
     <div class="lobutone">
-                <button class="newpage" type="button"><a href="categ.php" target="_self">PRÓXIMA PÁGINA</a></button>
-                <button class="voltar" type="button"><a href="categ.php" target="_self">VOLTAR</a></button>
+    <button type="button" class="curso" onclick="location.href='categ.php';">FINALIZAR</button><br>
+    <button type="button" class="curso" onclick="location.href='matri_2.php';">VOLTAR</button><br>
             </div> 
     </form>
 </section>

@@ -20,8 +20,8 @@
                 <div class="caixas_aviso"><p class="textos_aviso">6. Verifique se a foto está legível e de boa qualidade quando enviar.</p></div>
             </div>
             <div class="lobutone">
-                <button class="newpage" type="button"><a href="matri_2.php" target="_self">PRÓXIMA PÁGINA</a></button>
-                <button class="voltar" type="button"><a href="categ.php" target="_self">VOLTAR</a></button>
+            <button type="button" class="curso" onclick="location.href='matri_2.php';">PRÓXIMA PÁGINA</button><br>
+            <button type="button" class="curso" onclick="location.href='categ.php';">VOLTAR</button><br>
             </div>
         </section>
     </form>

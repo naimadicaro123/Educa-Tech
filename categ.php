@@ -6,35 +6,26 @@
     <title>Parte 1</title>
     <link rel="stylesheet" href="css's/style.css">
     <link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="imagens/favicon.png" type="image/png">
-<link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
 <?php
     include('layouts/header.php');
-    ?>
-    <main>
-        <form action="php/test.php" method="POST" target="_blank">
-    <!--<h2 class="forms">FORMULÁRIO DE MATRÍCULA</h2><br>
-     <div class="AnoCurso">
-        <h3 class="year">Ano:</h3>
-        <select name="" id="" class="select-container">
-            <option>1ª ano</option>
-            <option>2ª ano</option>
-            <option>3ª ano</option>           
-        </select>
-    </div> -->
+?>
+<main>
+    <form action="php/test.php" method="POST" target="_blank">
         <div class="selecione-container">
-        <br><h1 class="sela">SELECIONE A CATEGORIA</h1><br>
-        <button type="submit" class="curso"><a href="matri.php" target="_self" class="links">DADOS PESSOAIS <br> DO(A) ALUNO</a></button><br>
-        <button type="submit" class="curso"><a href="matri2.php" target="_self" class="links">DOCUMENTAÇÃO DO(A) <BR>ALUNO(A)</a></button><br>
-        <button type="submit" class="curso"><a href="matri3.php" target="_self" class="links">DADOS DE SAÚDE DO(A)<BR>ALUNO(A)</a></button>
-    </div>
-    <DIV class="final-content">
-        <button class="finalizar"><a href="text_final.php">FINALIZAR</a></button>
-    </DIV>
-    <button class="back-container"><a href="cursos.php">VOLTAR</a></button>
-
-</form>
+            <br><h1 class="sela">SELECIONE A CATEGORIA</h1><br>
+            <button type="submit" class="curso" onclick="location.href='matri.php';">DADOS PESSOAIS <br> DO(A) ALUNO</button><br>
+            <button type="submit" class="curso" onclick="location.href='matri2.php';">DOCUMENTAÇÃO DO(A) <br> ALUNO(A)</button><br>
+            <button type="submit" class="curso" onclick="location.href='matri3.php';">DADOS DE SAÚDE DO(A)<br> ALUNO(A)</button>
+        </div>
+        <div class="final-content">
+            <button type="button" class="finalizar" onclick="location.href='text_final.php';">FINALIZAR</button>
+        </div>
+        <button type="button" class="back-container" onclick="location.href='cursos.php';">VOLTAR</button>
+    </form>
 </main>
 </body>
+</html>

@@ -23,8 +23,8 @@
             <canvas id="canvas" style="display: none;"></canvas>
         </div>
         <div class="lobutone">
-                <button class="newpage" type="button"><a href="matri3.php" target="_self">PRÓXIMA PÁGINA</a></button>
-                <button class="voltar" type="button"><a href="categ.php" target="_self">VOLTAR</a></button>
+        <button type="button" class="curso" onclick="location.href='matri3.php';">PRÓXIMA PÁGINA</button><br>
+        <button type="button" class="curso" onclick="location.href='categ.php';">VOLTAR</button><br>
             </div>
     </form>
 </section>
