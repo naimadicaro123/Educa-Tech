@@ -14,11 +14,11 @@
 <?php
    include('layouts/header.php');
     ?>
-    <main>
+    <main class="main-content">
 <section class="centrelized">
-    <h1 class></h1>
+    <h1 class>SAÚDE E ALIMENTAÇÃO</h1>
 <form id="health">
-    <div>
+<div>
     <h2 class="dificuldades">Dificuldades</h2>
     <label for="opcoes">
     <select id="meuSelect" name="opcoes" onchange="this.classList.remove('placeholder')">
@@ -110,7 +110,7 @@
     <div class="lobutone">
                 <button class="newpage" type="button"><a href="categ.php" target="_self">PRÓXIMA PÁGINA</a></button>
                 <button class="voltar" type="button"><a href="categ.php" target="_self">VOLTAR</a></button>
-            </div>
+            </div> 
     </form>
 </section>
 </main>  
