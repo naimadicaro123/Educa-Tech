@@ -41,4 +41,33 @@ fileInput.addEventListener('change', (event) => {
         reader.readAsDataURL(file);
     }
 });
+let calcScrollValue = () => {
+    let scrollProgress = document.getElementById("back_to_top");
+    let mainContent = document.querySelector('.main-content'); // Seleciona o conteúdo principal
+    let calcHeight = mainContent.scrollHeight - mainContent.clientHeight; // Calcula a altura total de rolagem
+    let pos = mainContent.scrollTop; // Posição atual de rolagem
+    let scrollValue = Math.round((pos * 100) / calcHeight); // Percentual de rolagem
+
+    // Exibe o botão se a posição de rolagem for maior que 100
+    if (pos > 100) {
+        scrollProgress.style.display = "flex"; // Torna o botão visível
+    } else {
+        scrollProgress.style.display = "none"; // Oculta o botão
+    }
+
+    // Atualiza o fundo com um gradiente conic
+    scrollProgress.style.background = `conic-gradient(#56a7b2 ${scrollValue}%, #87d1e6 ${scrollValue}%)`;
+};
+
+// Evento de rolagem
+mainContent.onscroll = calcScrollValue;
+
+// Evento de clique para voltar ao topo
+document.getElementById("back_to_top").addEventListener("click", () => {
+    mainContent.scrollTo({ top: 0, behavior: "smooth" }); // Rola suavemente para o topo
+});
+
+// Adiciona um efeito de círculo ao botão
+const backToTopButton = document.getElementById("back_to_top");
+backToTopButton.style.borderRadius = "50%"; // Garante que o botão seja circular
 

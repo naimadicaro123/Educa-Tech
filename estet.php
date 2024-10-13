@@ -22,8 +22,8 @@
           de pele, massagens, maquiagem e depilação. Com acesso a laboratorios e estágios em salões de beleza, os graduados estão prontos para trabalhar como esteticistas ou continuar seus estudos na área.</p>
 </div>
 <div class="lobutone">
-  <button class="irpara_c"><a href="categ.php" target="_self">IR PARA A MATRÍCULA</a></button>
-  <button class="irpara_d"><a href="cursos.php" target="_self">VOLTAR</a></button>
-</div>
+    <button type="button" class="curso" onclick="location.href='categ.php';">AVANÇAR</button><br>
+    <button type="button" class="curso" onclick="location.href='cursos.php';">VOLTAR</button><br>
+            </div> 
 </body>
 </html>

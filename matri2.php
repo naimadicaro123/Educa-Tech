@@ -21,7 +21,7 @@
             </div>
             <div class="lobutone">
             <button type="button" class="curso" onclick="location.href='matri_2.php';">PRÓXIMA PÁGINA</button><br>
-            <button type="button" class="curso" onclick="location.href='categ.php';">VOLTAR</button><br>
+            <button type="button" class="curso" onclick="location.href='matri.php';">VOLTAR</button><br>
             </div>
         </section>
     </form>

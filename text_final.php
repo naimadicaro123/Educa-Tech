@@ -20,10 +20,10 @@ include('layouts/header.php')
 <div class="otexto-container">
     <p class="vertical-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus consequatur aperiam quam porro. Beatae veritatis fuga quas esse, deleniti nulla sapiente fugiat! Aliquid quae quis minima hic cumque animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eius nisi nesciunt enim! Eveniet optio provident, praesentium molestiae dolorem debitis cum omnis nostrum iure vel consectetur voluptate odit tempora! Maxime? .</p>
 </div>
-<div class="losbutones">
-  <button class="finalizar"><a href="categ.php" target="_self">Finalizar</a></button>
-  <button class="irpara_b"><a href="categ.php" target="_self">VOLTAR</a></button>
-</div>
+<div class="lobutone">
+    <button type="button" class="curso" onclick="location.href='index.php';">FINALIZAR</button><br>
+    <button type="button" class="curso" onclick="location.href='categ.php';">VOLTAR</button><br>
+            </div> 
 </main>
 </body>
 </html>

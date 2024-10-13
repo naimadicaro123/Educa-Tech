@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +45,7 @@
                 <label for="">Email do Aluno: <br><input type="text"></label><br>
             </div>
             <div class="lobutone">
-            <button type="button" class="curso" onclick="location.href='matri2.php';">PRÓXIMA PÁGINA</button><br>
+            <button type="button" class="curso" onclick="location.href='matri2.php';">AVANÇAR</button><br>
             <button type="button" class="curso" onclick="location.href='categ.php';">VOLTAR</button><br>
             </div>
         </section>

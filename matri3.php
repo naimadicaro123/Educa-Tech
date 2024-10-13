@@ -19,7 +19,7 @@
     <h1 class>SAÚDE E ALIMENTAÇÃO</h1>
 <form id="health">
 <div>
-    <h2 class="dificuldades">Dificuldades</h2>
+    <h2 class="dificuldades">DIFICULDADES</h2>
     <label for="opcoes">
     <select id="meuSelect" name="opcoes" onchange="this.classList.remove('placeholder')">
         <option value="" class="placeholder" selected>Dificuldades</option>
@@ -29,11 +29,11 @@
     </select>
     </label>
     <label for="">
-        <input type="text" placeholder="No caso de outros, quais?">
+        <input type="text" placeholder="No caso de outros, quais?" class="doenca">
     </label>
     </div>
     <div>
-        <h2 class="subtopico">Doenças</h2>
+        <h2 class="subtopico">DOENÇAS</h2>
 <label for="" class="great_label">
     <input type="text" placeholder="Doenças mais frequentes" class="doenca">
 </label>
@@ -45,7 +45,7 @@
 </label>
 </div>
     <div class="header_pain">
-        <h2 class="subtopico">Dor de Cabeça</h2>
+        <h2 class="subtopico">DOR DE CABEÇA</h2>
         <label for="">
             <input type="text" placeholder="Costume ter dor de cabeça?" name="costume" class="doenca">
         </label>
@@ -54,7 +54,7 @@
         </label>
     </div>
     <div class="header_two_pain">
-        <h2 class="subtopico">Dor de Cabeça</h2>
+        <h2 class="subtopico">DOR DE CABEÇA</h2>
         <label for="uso">
             <input type="text" name="uso" class="doenca" placeholder="Faz uso de algum medicamento?">
         </label>
@@ -66,7 +66,7 @@
 </label>
     </div>
     <div class="alergias">
-        <h2 class="subtopico">Alergias</h2>
+        <h2 class="subtopico">ALERGIAS</h2>
         <label for="medicamento">
             <input type="text" class="doenca" placeholder="Tem alergia a algum medicamento?" class="doenca">
         </label>
@@ -81,7 +81,7 @@
         </label>
     </div>
     <div class="alimento">
-        <h2 class="subtopico">Alimentação</h2>
+        <h2 class="subtopico">ALIMENTAÇÃO</h2>
         <label for="">
             <input type="text" class="doenca" placeholder="Alimenta-se ao sair de casa?">
         </label>
@@ -90,7 +90,7 @@
         </label>
     </div>
     <div class="sleep">
-        <h2 class="subtopico">Sono</h2>
+        <h2 class="subtopico">SONO</h2>
         <label for="">
             <input type="text" class="doenca" placeholder="A que horas costume dormir?">
         </label>
@@ -99,20 +99,25 @@
         </label>
     </div>
     <div class="blood">
-        <h2 class="subtopico">Tipo sanguíneo</h2>
+        <h2 class="subtopico">TIPO SANGUÍNEO</h2>
         <label for="">
             <input type="text" class="doenca" placeholder="Qual o tipo sanguíneo?">
         </label>
-        <label for="">
-            <input type="submit" class="doenca" placeholder="RH">
+        <label for="SANGUE">
+            <input type="text"  name="SANGUE" class="doenca" placeholder="RH">
         </label>
     </div>
     <div class="lobutone">
-    <button type="button" class="curso" onclick="location.href='categ.php';">FINALIZAR</button><br>
+    <button type="button" class="curso" onclick="location.href='categ.php';">AVANÇAR</button><br>
     <button type="button" class="curso" onclick="location.href='matri_2.php';">VOLTAR</button><br>
             </div> 
     </form>
 </section>
+<div id="back_to_top" class="back-to-top">
+    <div id="btn_back">
+        <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+    </div>
+</div>
 </main>  
 <script src="scripts/script.js"></script>  
 </body>

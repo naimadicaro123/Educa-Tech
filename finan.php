@@ -22,9 +22,9 @@
         Com estágios em instituições financeiras e empresas, os graduados estão preparados para carreiras em bancos, consultorias financeiras ou departamentos financeiros de empresas, e têm base para estudos avançados</p>
 </div>
 <div class="lobutone">
-  <button class="irpara_g"><a href="categ.php" target="_self">IR PARA A MATRÍCULA</a></button>
-  <button class="irpara_h"><a href="cursos.php" target="_self">VOLTAR</a></button>
-</div>
+    <button type="button" class="curso" onclick="location.href='categ.php';">FINALIZAR</button><br>
+    <button type="button" class="curso" onclick="location.href='cursos.php';">VOLTAR</button><br>
+            </div> 
 </body>
 </html>
 </body>

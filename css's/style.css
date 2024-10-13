@@ -87,6 +87,7 @@ a {
   cursor: pointer;
   background-color: #0E522d;
   transition: background-color 0.5s ease-in-out;
+  padding: 10px;
 }
 
 .curso:hover {
@@ -207,7 +208,7 @@ p {
   flex-direction: column;
   align-items: center;
 }
-
+.irpara_a
 .irpara_b,
 .irpara_c,
 .irpara_d,
@@ -366,8 +367,8 @@ h1 {
   justify-content: center;
 }
 
-input {
-  background-color: #147a3e;
+.infor-container input {
+  background-color: var(--main-escuro);
   color: white;
   border: 0;
   border-radius: 5px;
@@ -387,6 +388,7 @@ input {
   display: inline-flex;
   padding: 10px;
   justify-content: center;
+  gap: 10px ;
 }
 
 .nave-container {
@@ -484,6 +486,7 @@ h3 {
   background-color: var(--main-escuro);
   border-radius: 15px;
   text-align: left; /* Alinha o texto à esquerda */
+  padding: 10px;
 }
 
 .container {
@@ -523,4 +526,82 @@ video {
 .subtopico {
   color: white;
   text-align: center;
+}
+.dificuldades{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#meuSelect{
+  padding: 10px;
+  background-color: var(--main-escuro);
+  font-size: 20px;
+  border-bottom: 3px solid var(--main-branco);
+  margin-bottom: 10px;
+}
+option:hover{
+  background-color: var(--main-clara);
+}
+.health{
+  padding: 10px;
+  background-color: var(--main-escuro);
+  font-size: 20px;
+  border-bottom: 3px solid var(--main-branco);
+  justify-content: center;
+  align-items: center;
+  
+}
+.doenca{
+  height: 3rem;
+  width: 25rem;
+  background-color: var(--main-escuro);
+  font-size: 20px;
+  border-bottom: 3px solid var(--main-branco);
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: var(--main-branco);
+  border-radius: 5px;
+}
+.doenca::placeholder{
+  color: var(--main-branco);
+}
+.subtopico{
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+#back_to_top {
+  position: fixed;
+  z-index: 2;
+  color: black;
+  bottom: 40px;
+  right: 30px;
+  height: 48px;
+  width: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: 0.4s all;
+}
+
+#btn_back {
+  display: block;
+  height: calc(100% - 12px);
+  width: calc(100% - 12px);
+  background-color: white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+/* efeito ao clicar no botão back to top */
+#back_to_top #btn_back #icon_up:hover {
+  transform: translateY(-3px);
 }
