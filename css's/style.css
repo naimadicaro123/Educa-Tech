@@ -578,8 +578,8 @@ option:hover{
   position: fixed;
   z-index: 2;
   color: black;
-  bottom: 40px;
-  right: 30px;
+  bottom: 40px; /* Distância do fundo */
+  right: 30px; /* Distância da direita */
   height: 48px;
   width: 48px;
   display: grid;
@@ -588,7 +588,8 @@ option:hover{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   font-size: 1.1rem;
-  transition: 0.4s all;
+  display: none; /* Começa escondido */
+  transition: 0.4s all; /* Transição suave */
 }
 
 #btn_back {
@@ -601,7 +602,54 @@ option:hover{
   place-items: center;
 }
 
-/* efeito ao clicar no botão back to top */
-#back_to_top #btn_back #icon_up:hover {
-  transform: translateY(-3px);
+/* Efeito ao passar o mouse */
+#btn_back:hover {
+  transform: translateY(-3px); /* Eleva o botão ao passar o mouse */
 }
+
+/* Mostrar botão ao rolar */
+.show {
+  display: grid; /* Exibir o botão */
+}
+@media (min-width: 378px) and (max-width: 728px) {
+  .lobutone {
+    text-align: left; /* Alinha os botões à esquerda */
+  }
+
+  .subtopico {
+    text-align: left; /* Alinha os títulos à esquerda */
+    margin-left:20px;
+    margin-right: 20px;
+  }
+
+  .dificuldades {
+    text-align: left; /* Alinha o título "DIFICULDADES" à esquerda */
+    margin-left:20px;
+    margin-right: 20px;
+  }
+
+  .doenca {
+    width: 90%; /* Ajusta a largura dos inputs para ocupar 100% do contêiner */
+    margin-left:20px;
+  }
+  .select-container {
+    display: flex; /* Define o contêiner como flexível */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    margin-bottom: 30px; /* Espaçamento abaixo, se necessário */
+  }
+
+  #meuSelect {
+    margin-left:20px; 
+  }
+
+}
+#icon_curse{
+  background-color: var(--main-escuro);
+}
+#icon_curse:hover{
+  background-color: black;
+}
+.icon-hover {
+  background-color: black; /* Cor de fundo no hover */
+}
+

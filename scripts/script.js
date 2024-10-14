@@ -41,33 +41,33 @@ fileInput.addEventListener('change', (event) => {
         reader.readAsDataURL(file);
     }
 });
-let calcScrollValue = () => {
-    let scrollProgress = document.getElementById("back_to_top");
-    let mainContent = document.querySelector('.main-content'); // Seleciona o conteúdo principal
-    let calcHeight = mainContent.scrollHeight - mainContent.clientHeight; // Calcula a altura total de rolagem
-    let pos = mainContent.scrollTop; // Posição atual de rolagem
-    let scrollValue = Math.round((pos * 100) / calcHeight); // Percentual de rolagem
-
-    // Exibe o botão se a posição de rolagem for maior que 100
-    if (pos > 100) {
-        scrollProgress.style.display = "flex"; // Torna o botão visível
+// Mostrar ou esconder o botão de voltar ao topo
+window.onscroll = function() {
+    const button = document.getElementById('back_to_top');
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        button.classList.add('show'); // Adiciona classe para mostrar o botão
     } else {
-        scrollProgress.style.display = "none"; // Oculta o botão
+        button.classList.remove('show'); // Remove classe para esconder o botão
     }
-
-    // Atualiza o fundo com um gradiente conic
-    scrollProgress.style.background = `conic-gradient(#56a7b2 ${scrollValue}%, #87d1e6 ${scrollValue}%)`;
 };
 
-// Evento de rolagem
-mainContent.onscroll = calcScrollValue;
-
-// Evento de clique para voltar ao topo
-document.getElementById("back_to_top").addEventListener("click", () => {
-    mainContent.scrollTo({ top: 0, behavior: "smooth" }); // Rola suavemente para o topo
+// Voltar ao topo ao clicar no botão
+document.getElementById('back_to_top').onclick = function() {
+    window.scrollTo({top: 0, behavior: 'smooth'}); // Rolagem suave
+};
+//
+document.querySelectorAll('.curso').forEach(button => {
+    button.addEventListener('mouseenter', () => {
+        document.getElementById('icon_curse').classList.add('icon-hover');
+    });
+    
+    button.addEventListener('mouseleave', () => {
+        document.getElementById('icon_curse').classList.remove('icon-hover');
+    });
 });
 
-// Adiciona um efeito de círculo ao botão
-const backToTopButton = document.getElementById("back_to_top");
-backToTopButton.style.borderRadius = "50%"; // Garante que o botão seja circular
+
+
+
+
 

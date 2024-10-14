@@ -19,7 +19,7 @@
     <h1 class>SAÚDE E ALIMENTAÇÃO</h1>
 <form id="health">
 <div>
-    <h2 class="dificuldades">DIFICULDADES</h2>
+    <h1a class="dificuldades">DIFICULDADES</h2>
     <label for="opcoes">
     <select id="meuSelect" name="opcoes" onchange="this.classList.remove('placeholder')">
         <option value="" class="placeholder" selected>Dificuldades</option>
@@ -118,6 +118,7 @@
         <i id="icon_up" class="fa-solid fa-arrow-up"></i>
     </div>
 </div>
+
 </main>  
 <script src="scripts/script.js"></script>  
 </body>

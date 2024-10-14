@@ -50,5 +50,10 @@
             </div>
         </section>
     </form>
+    <div id="back_to_top" class="back-to-top">
+    <div id="btn_back">
+        <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+    </div>
+</div>
 </body>
 </html>
