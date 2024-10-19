@@ -54,6 +54,6 @@
     <div id="btn_back">
         <i id="icon_up" class="fa-solid fa-arrow-up"></i>
     </div>
-</div>
+</div>  
 </body>
 </html>
