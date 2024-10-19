@@ -17,7 +17,7 @@
         <p>Seu texto abaixo da imagem.</p>
     </div>
     <div class="losbutones">
-  <button class="irpara_a"><a href="assets/cursos.php" target="_self">Cursos</a></button>
+  <button class="irpara_a"><a href="cursos.php" target="_self">Cursos</a></button>
 </div>
     </main>
     <script src="scripts/script.js"></script>
