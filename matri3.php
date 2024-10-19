@@ -113,13 +113,11 @@
             </div> 
     </form>
 </section>
-<div id="back_to_top" class="back-to-top">
-    <div id="btn_back">
-        <i id="icon_up" class="fa-solid fa-arrow-up"></i>
-    </div>
-</div>
-
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+  <i class="fas fa-arrow-up"></i>
+</button> 
 </main>  
+
 <script src="scripts/script.js"></script>  
 </body>
 </html>
