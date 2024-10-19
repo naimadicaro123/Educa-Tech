@@ -17,7 +17,7 @@
     <h1 class="h-container">ENFERMAGEM</h1>
 </div>
 <div class="texto-container">
-    <p class="vertical-text">O curso de Enfermagem na EEEP José de Barcelos oferece uma formação completa em saúde, abrangendo teoria e prática em áreas como anatomia, fisiologia, farmacologia e cuidados de enfermagem. Os alunos realizam estágios em hospitais e clínicas, preparando-se para trabalhar como enfermeiros ou seguir estudos avançados na área.</p>
+    <p class="vertical-text">O curso de Enfermagem na EEEP José de Barcelos oferece uma formação completa em saúde, abrangendo teoria e prática em áreas como anatomia, fisiologia, farmacologia e cuidados de enfermagem. Os alunos realizam estágios em hospitais e clínicas, tpreparando-se para trabalhar como enfermeiros ou seguir estudos avançados na área.</p>
 </div>
 <div class="lobutone">
     <button type="button" class="curso" onclick="location.href='categ.php';">AVANÇAR</button><br>
