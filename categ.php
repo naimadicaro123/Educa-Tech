@@ -22,7 +22,7 @@
             <button type="submit" class="curso" onclick="location.href='matri3.php';">DADOS DE SAÚDE DO(A)<br> ALUNO(A)</button>
         </div>
         <div class="final-content">
-            <button type="button" class="finalizar" onclick="location.href='text_final.php';">FINALIZAR</button>
+            <button type="button" class="curso" onclick="location.href='text_final.php';">FINALIZAR</button>
         </div>
         <button type="button" class="back-container" onclick="location.href='cursos.php';">VOLTAR</button>
     </form>
