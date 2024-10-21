@@ -144,8 +144,11 @@ button svg {
 
 @media screen and (max-width: 332px) {
   .sela {
-    font-size: 15px;
+    font-size: 23px;
   }
+  .curso{
+    width: 15rem;
+   }
 }
 
 p {
@@ -404,10 +407,45 @@ h1 {
   padding: 20px;
 }
 
-.image-container {
-  width: 120px;
-  height: 100px;
+.footersteeps {
+  border-top: 1PX solid var(--main-branco);
+ 
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
+
+.box_one {
+  display: flex;
+  margin: 10px;
+  flex-direction: column; /* Coloca os ícones em coluna */
+  align-items: flex-start; /* Alinha os ícones à esquerda */
+  margin-left: 30px;
+}
+
+.social-icons svg {
+  display: block;
+  margin-bottom: 15px;
+  width: 20px;
+  height: 20px;
+
+}
+.social-icons svg:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6); /* Sombra mais grossa e escura */
+
+}
+.imagem-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.imagem {
+  width: 120px; /* Ajuste conforme necessário */
+  height: 100px; /* Ajuste conforme necessário */
+}
+
 
 .lobutone {
   display: flex;

@@ -27,6 +27,7 @@
             </div>
         </form>
     </main>
+    <?php include('layouts/footer.php'); ?>
     <script src="scripts/script.js"></script>
 </body>
 </html>
